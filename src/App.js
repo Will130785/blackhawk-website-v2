@@ -1,8 +1,7 @@
-import React, {Component} from "react";
+import React from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Router, Route} from "react-router-dom";
-import {browserHistory} from "react-router";
+import {BrowserRouter as Router} from "react-router-dom";
 import {useRoutes} from "hookrouter";
 
 import Navigation from "./components/Navigation";
