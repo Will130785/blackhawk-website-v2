@@ -53,23 +53,23 @@ class Footer extends Component {
                                 <p style={styles.contact.company}>Blackhawk Oven Cleaning & Property Services</p>
                                 <p style={styles.contact.phone}>0345 257 8322</p>
                                 <div style={styles.social.iconContainer}>
-                                    <img style={styles.social.socialIcon} src={Facebook} />
-                                    <img style={styles.social.socialIcon} src={Instagram} />
+                                    <img style={styles.social.socialIcon} src={Facebook} alt="Facebook Logo" />
+                                    <img style={styles.social.socialIcon} src={Instagram} alt="Instagram Logo" />
                                 </div>
                             </Col>
                             <Col lg={true}>
                                 <Row>
                                     <Col>
-                                        <img style={styles.companyLogos.Logo} src={Google} />
+                                        <img style={styles.companyLogos.Logo} src={Google} alt="Google Logo" />
                                     </Col>
                                     <Col>
-                                        <img style={styles.companyLogos.Logo} src={Thompson} />
+                                        <img style={styles.companyLogos.Logo} src={Thompson} alt="Thompson Logo" />
                                     </Col>
                                     <Col>
-                                        <img style={styles.companyLogos.Logo} src={Yell} />
+                                        <img style={styles.companyLogos.Logo} src={Yell} alt="Yell Logo" />
                                     </Col>
                                     <Col>
-                                        <img style={styles.companyLogos.Logo} src={Three} />
+                                        <img style={styles.companyLogos.Logo} src={Three} alt="Three Logo" />
                                     </Col>
                                 </Row>
                             </Col>

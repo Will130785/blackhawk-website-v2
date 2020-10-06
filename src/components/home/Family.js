@@ -31,7 +31,7 @@ class Family extends Component {
                 <Container>
                     <Row>
                         <Col lg={true}>
-                            <img style={styles.image.pic} src={FamPic}/>
+                            <img style={styles.image.pic} src={FamPic} alt="Family Picture" />
                         </Col>
                         <Col lg={true}>
                             <h2 style={styles.whyChoose.title}>Why Choose us?</h2>
