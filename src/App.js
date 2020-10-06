@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import {browserHistory} from "react-router";
+import {useRoutes} from "hookrouter";
 
 import Navigation from "./components/Navigation";
 import HomePage from "./pages/HomePage";
@@ -16,15 +18,30 @@ import PricePage from "./pages/PricePage";
 import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
 
-class App extends Component {
+const routes = {
+  "/": () => <HomePage />,
+  "/about": () => <AboutPage />,
+  "/oven": () => <OvenPage />,
+  "/general": () => <GeneralPage />,
+  "/commercial": () => <CommercialPage />,
+  "/gallery": () => <GalleryPage />,
+  "/areas": () => <AreasPage />,
+  "/family": () => <FamilyPage />,
+  "/pricing": () => <PricePage />,
+  "/contact": () => <ContactPage />,
+  "/covid": () => <CovidPage />
+}
 
-  render() {
+function App() {
+
+    const match = useRoutes(routes)
     return (
-      <BrowserRouter>
+      <Router>
         <div>
           <Navigation />
           <main>
-            <Route path="/" exact={true} component={HomePage} />
+            {match}
+            {/* <Route path="/" exact={true} component={HomePage} />
             <Route path="/about" exact={true} component={AboutPage} />
             <Route path="/oven" exact={true} component={OvenPage} />
             <Route path="/general" exact={true} component={GeneralPage} />
@@ -34,12 +51,11 @@ class App extends Component {
             <Route path="/family" exact={true} component={FamilyPage} />
             <Route path="/pricing" exact={true} component={PricePage} />
             <Route path="/contact" exact={true} component={ContactPage} />
-            <Route path="/covid" exact={true} component={CovidPage} />
+            <Route path="/covid" exact={true} component={CovidPage} /> */}
           </main>
         </div>
-      </BrowserRouter>
+      </Router>
     )
   }
-}
 
 export default App;
