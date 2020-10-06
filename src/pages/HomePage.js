@@ -2,7 +2,8 @@ import React, {Component} from "react";
 
 import Hero from "../components/Hero";
 import Reputation from "../components/home/Reputation";
-import Family from "../components/home/Family"
+import Family from "../components/home/Family";
+import Gallery from "../components/home/Gallery";
 
 class HomePage extends Component {
 
@@ -17,6 +18,7 @@ class HomePage extends Component {
                         </div>}
                 />
                 <Reputation />
+                <Gallery />
                 <Family />
             </div>
         )

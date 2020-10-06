@@ -22,6 +22,12 @@ class Family extends Component {
                 },
                 listItems: {
                     fontSize: "2rem"
+                },
+                subHeading: {
+                    fontSize: "3rem"
+                },
+                paragraph: {
+                    fontSize: "2rem"
                 }
             }
         }
@@ -31,10 +37,7 @@ class Family extends Component {
                 <Container>
                     <Row>
                         <Col lg={true}>
-                            <img style={styles.image.pic} src={FamPic} alt="Family" />
-                        </Col>
-                        <Col lg={true}>
-                            <h2 style={styles.whyChoose.title}>Why Choose us?</h2>
+                        <h2 style={styles.whyChoose.title}>Why Choose us?</h2>
                             <ul style={styles.whyChoose.listItems}>
                                 <li>Family run business</li>
                                 <li>Fully insured</li>
@@ -45,8 +48,23 @@ class Family extends Component {
                                 <li>Flexible hours to suit you</li>
                                 <li>Most importantly our technicians will not leave until you are totally happy with their work. ` Customer satisfaction is a must for us !</li>
                             </ul>
-
-
+                        </Col>
+                        <Col lg={true}>
+                            <h2 style={styles.whyChoose.title}>We cover the following areas</h2>  
+                            <ul style={styles.whyChoose.listItems}>
+                                <h3 style={styles.whyChoose.subHeading}>Surrey</h3>
+                                <li>Sutton</li>
+                                <li>Epsom</li>
+                                <li>Morden</li>
+                                <li>Tadworth</li>
+                                <li>Reigate</li>
+                                <h3 style={styles.whyChoose.subHeading}>South West London</h3>
+                                <li>Clapham</li>
+                                <li>Balham</li>
+                                <li>Mitcham</li>
+                                <li>Streatham</li>
+                            </ul>
+                            <p style={styles.whyChoose.paragraph}>If your area is not listed, please do give us a call and we will try our best to accomodate you.</p>
                         </Col>
                     </Row>
                 </Container>
