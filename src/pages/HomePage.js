@@ -14,6 +14,7 @@ class HomePage extends Component {
                     title="Blackhawk Oven Cleaning & Property Services"
                     blurb="Welcome to our website, please take a moment to look around and check out our services" 
                 />
+                <button>See More</button>
             </div>
         )
     }
