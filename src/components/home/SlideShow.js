@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Container from "react-bootstrap/Container";
 import Family from "../../img/home/family.jpeg";
-import Col from "react-bootstrap/Col"
 
 class SlideShow extends Component {
 
