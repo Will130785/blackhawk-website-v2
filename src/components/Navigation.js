@@ -6,9 +6,7 @@ import Logo from "../img/logo/logo-small.jpg";
 import Covid from "../img/covid/covid.jpg";
 
 class Navigation extends Component {
-    constructor(props) {
-        super(props);
-    }
+    
 
     render() {
         return (

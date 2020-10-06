@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import Hero from "../components/Hero";
 
 class GalleryPage extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

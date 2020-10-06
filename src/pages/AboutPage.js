@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import Hero from "../components/Hero";
 
 class AboutPage extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

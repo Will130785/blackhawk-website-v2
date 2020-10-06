@@ -7,10 +7,7 @@ import Col from "react-bootstrap/Col";
 import LogoBig from "../img/logo/logo3d.jpeg";
 
 class Hero extends Component {
-    constructor(props) {
-        super(props);
-    }
-
+    
     render() {
         return (
             <Jumbotron>

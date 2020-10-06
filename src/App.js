@@ -17,9 +17,6 @@ import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
