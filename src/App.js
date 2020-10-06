@@ -16,6 +16,7 @@ import FamilyPage from "./pages/FamilyPage";
 import PricePage from "./pages/PricePage";
 import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
+import Footer from "./components/Footer";
 
 const routes = {
   "/": () => <HomePage />,
@@ -40,18 +41,8 @@ function App() {
           <Navigation />
           <main>
             {match}
-            {/* <Route path="/" exact={true} component={HomePage} />
-            <Route path="/about" exact={true} component={AboutPage} />
-            <Route path="/oven" exact={true} component={OvenPage} />
-            <Route path="/general" exact={true} component={GeneralPage} />
-            <Route path="/commercial" exact={true} component={CommercialPage} />
-            <Route path="/gallery" exact={true} component={GalleryPage} />
-            <Route path="/areas" exact={true} component={AreasPage} />
-            <Route path="/family" exact={true} component={FamilyPage} />
-            <Route path="/pricing" exact={true} component={PricePage} />
-            <Route path="/contact" exact={true} component={ContactPage} />
-            <Route path="/covid" exact={true} component={CovidPage} /> */}
           </main>
+          <Footer/>
         </div>
       </Router>
     )

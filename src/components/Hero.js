@@ -9,16 +9,25 @@ import LogoBig from "../img/logo/logo3d.jpeg";
 class Hero extends Component {
     
     render() {
+
+        const style = {
+            heading: {
+                fontSize: "5rem"
+            },
+            paragraph: {
+                fontSize: "1.8rem"
+            }
+        }
         return (
             <Jumbotron>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col lg={true}>
                             <img className="logo-big" src={LogoBig} alt="Logo"/>
                         </Col>
-                        <Col>
-                            <h1>{this.props.title}</h1>
-                            <p>{this.props.blurb}</p>
+                        <Col lg={true}>
+                            <h1 style={style.heading}>{this.props.title}</h1>
+                            <p style={style.paragraph}>{this.props.blurb}</p>
                         </Col>
                     </Row>
                 </Container>

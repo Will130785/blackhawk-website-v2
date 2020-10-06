@@ -12,23 +12,23 @@ class Navigation extends Component {
     render() {
         return (
             <Navbar variant="dark" expand="lg">
-                <Navbar.Brand href="/"><img className="logo" src={Logo} alt="Logo" /></Navbar.Brand>
+                <Navbar><A class="a-link" href="/"><img className="logo" src={Logo} alt="Logo" /></A></Navbar>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>
-                    <Nav><A href="/">Home</A></Nav>
-                    <Nav><A href="/about">About</A></Nav>
+                    <Nav><A class="a-link" href="/">Home</A></Nav>
+                    <Nav><A class="a-link" href="/about">About</A></Nav>
                     <NavDropdown title="Services" id="basic-nav-dropdown">
-                        <NavDropdown.Item><A href="oven">Oven Cleaning</A></NavDropdown.Item>
-                        <NavDropdown.Item><A href="/general">General Cleaning</A></NavDropdown.Item>
-                        <NavDropdown.Item><A href="/commercial">Commercial Cleaning</A></NavDropdown.Item>
+                        <NavDropdown.Item><A class="a-link" href="oven">Oven Cleaning</A></NavDropdown.Item>
+                        <NavDropdown.Item><A class="a-link" href="/general">General Cleaning</A></NavDropdown.Item>
+                        <NavDropdown.Item><A class="a-link" href="/commercial">Commercial Cleaning</A></NavDropdown.Item>
                     </NavDropdown>
-                    <Nav><A href="/gallery">Gallery</A></Nav>
-                    <Nav><A href="/areas">Areas Covered</A></Nav>
-                    <Nav><A href="/family">Family</A></Nav>
-                    <Nav><A href="/pricing">Pricing</A></Nav>
-                    <Nav><A href="/contact">Contact</A></Nav>
-                    <Nav><A href="/covid"><img class="covid" src={Covid} alt="Covid Logo" /></A></Nav>
+                    <Nav><A class="a-link" href="/gallery">Gallery</A></Nav>
+                    <Nav><A class="a-link" href="/areas">Areas Covered</A></Nav>
+                    <Nav><A class="a-link" href="/family">Family</A></Nav>
+                    <Nav><A class="a-link" href="/pricing">Pricing</A></Nav>
+                    <Nav><A class="a-link" href="/contact">Contact</A></Nav>
+                    <Nav><A class="a-link" href="/covid"><img class="covid" src={Covid} alt="Covid Logo" /></A></Nav>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
