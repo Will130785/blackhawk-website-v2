@@ -16,11 +16,13 @@ import FamilyPage from "./pages/FamilyPage";
 import PricePage from "./pages/PricePage";
 import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
+import ServicesPage from "./pages/ServicesPage";
 import Footer from "./components/Footer";
 
 const routes = {
   "/": () => <HomePage />,
   "/about": () => <AboutPage />,
+  "/services": () => <ServicesPage />,
   "/oven": () => <OvenPage />,
   "/general": () => <GeneralPage />,
   "/commercial": () => <CommercialPage />,
