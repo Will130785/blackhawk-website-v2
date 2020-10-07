@@ -7,14 +7,13 @@ import Covid from "../img/covid/covid.jpg";
 import {A} from "hookrouter";
 
 class Navigation extends Component {
-    
 
     render() {
         return (
             <Navbar variant="dark" expand="lg">
-                <Navbar><A class="a-link" href="/"><img className="logo" src={Logo} alt="Logo" /></A></Navbar>
+                <Navbar><A href="/"><img className="logo" src={Logo} alt="Logo" /></A></Navbar>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" collapseOnSelect>
                 <Nav>
                     <Nav><A class="a-link" href="/">Home</A></Nav>
                     {/* <Nav><A class="a-link" href="/about">About</A></Nav> */}

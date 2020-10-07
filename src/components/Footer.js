@@ -13,6 +13,11 @@ class Footer extends Component {
 
     render() {
         const styles = {
+            footer: {
+                overall: {
+                    padding: "5rem 0"
+                }
+            },
             contact: {
                 company: {
                     fontSize: "1.8rem"
@@ -35,18 +40,21 @@ class Footer extends Component {
                 logoContainer: {
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "flexEnd"
+                    justifyContent: "space-between",
+                    width: "100%"
+                },
+                imageContainer: {
+                    width: "15%"
                 },
                 Logo: {
-                    width: "100%"
+                    width: "100%",
                 }
             }
 
         }
 
         return (
-            <div>
-                <footer>
+                <footer style={styles.footer.overall}>
                     <Container>
                         <Row>
                             <Col lg={true}>
@@ -58,8 +66,21 @@ class Footer extends Component {
                                 </div>
                             </Col>
                             <Col lg={true}>
-                                <Row>
-                                    <Col>
+                                    <div style={styles.companyLogos.logoContainer}>
+                                        <figure style={styles.companyLogos.imageContainer}>
+                                            <img style={styles.companyLogos.Logo} src={Google} alt="Google Logo" /> 
+                                        </figure>
+                                        <figure style={styles.companyLogos.imageContainer}>
+                                            <img style={styles.companyLogos.Logo} src={Thompson} alt="Google Logo" /> 
+                                        </figure>
+                                        <figure style={styles.companyLogos.imageContainer}>
+                                            <img style={styles.companyLogos.Logo} src={Yell} alt="Google Logo" /> 
+                                        </figure>
+                                        <figure style={styles.companyLogos.imageContainer}>
+                                            <img style={styles.companyLogos.Logo} src={Three} alt="Google Logo" /> 
+                                        </figure>
+                                    </div>
+                                    {/* <Col>
                                         <img style={styles.companyLogos.Logo} src={Google} alt="Google Logo" />
                                     </Col>
                                     <Col>
@@ -70,13 +91,11 @@ class Footer extends Component {
                                     </Col>
                                     <Col>
                                         <img style={styles.companyLogos.Logo} src={Three} alt="Three Logo" />
-                                    </Col>
-                                </Row>
+                                    </Col> */}
                             </Col>
                         </Row>
                     </Container>
                 </footer>
-            </div>
         )
     }
 }

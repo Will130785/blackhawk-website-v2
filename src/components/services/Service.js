@@ -8,6 +8,11 @@ class Service extends Component {
     render() {
 
         const styles = {
+            containerDiv: {
+                overall: {
+                    padding: "10rem 0 10rem 0"
+                }
+            },
             title: {
                 heading: {
                     fontSize: "4rem"
@@ -21,7 +26,7 @@ class Service extends Component {
         }
 
         return (
-            <div>
+            <div style={styles.containerDiv.overall}>
                 <Container>
                     <Row>
                         <Col lg={true}>

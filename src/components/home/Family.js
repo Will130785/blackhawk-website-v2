@@ -15,6 +15,11 @@ class Family extends Component {
                     height: "100%"
                 }
             },
+            containerDiv: {
+                overall: {
+                    padding: "10rem 0 10rem 0"
+                }
+            },
             whyChoose: {
                 title: {
                     fontSize: "4rem"
@@ -32,10 +37,10 @@ class Family extends Component {
         }
 
         return (
-            <div>
+            <div style={styles.containerDiv.overall}>
                 <Container>
                     <Row>
-                        <Col lg={true}>
+                        <Col className="familyDiv" lg={true}>
                         <h2 style={styles.whyChoose.title}>Why Choose us?</h2>
                             <ul style={styles.whyChoose.listItems}>
                                 <li>Family run business</li>

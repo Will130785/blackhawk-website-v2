@@ -9,6 +9,11 @@ class Reputation extends Component {
     render() {
 
         const styles = {
+            containerDiv: {
+                overall: {
+                    padding: "10rem 0 10rem 0"
+                }
+            },
             listItems: {
                 fontSize: "2rem"
             },
@@ -24,10 +29,10 @@ class Reputation extends Component {
             }
         }
         return (
-            <div>
+            <div style={styles.containerDiv.overall}>
                 <Container>
                     <Row>
-                        <Col lg={true}>
+                        <Col lg={{span: 6, order: 1}} xs={{span: 12, order: 2}}>
                             <ul style={styles.listItems}>
                                 <li>Hollyoaks star Richard Blackwood</li>
                                 <li>Love Island 2017 contestant Tyla Carr - "Amazing job. I will definitely recommend to my family and friends"</li>
@@ -36,7 +41,7 @@ class Reputation extends Component {
                                 <li>Former Britain's got talent contestant DJ Talent - "Very impressed with my new oven"</li>
                             </ul>
                         </Col>
-                        <Col style={styles.cols.title} lg={true}>
+                        <Col className="repTitle" style={styles.cols.title} lg={{span: 6, order: 2}} xs={{span: 12, order: 1}}>
                             <h2 style={styles.heading}>REPUTATION MATTERS</h2>
                         </Col>
                     </Row>

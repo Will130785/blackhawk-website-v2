@@ -8,9 +8,16 @@ class Gallery extends Component {
     
 
     render() {
+        const styles = {
+            containerDiv: {
+                overall: {
+                    padding: "10rem 0 10rem 0"
+                }
+            },
+        }
         
         return (
-            <div>
+            <div style={styles.containerDiv.overall}>
                 <Container>
                     <Row>
                         <Col lg={true}>

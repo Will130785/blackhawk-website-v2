@@ -1,0 +1,15 @@
+.priceCard-row {
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: 960px) {
+        margin-bottom: 0;
+    }
+
+}
+
+.priceCard-div {
+    @media only screen and (max-width: 960px) {
+        margin-bottom: 5rem;
+    }
+
+}

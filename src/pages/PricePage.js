@@ -8,17 +8,24 @@ import Col from "react-bootstrap/Col";
 class PricePage extends Component {
 
     render() {
+        const styles = {
+            containerDiv: {
+                overall: {
+                    padding: "10rem 0 10rem 0"
+                }
+            }
+        }
         return (
             <div>
                 <Hero 
                     title="Pricing"
                     blurb="Check out our prices and packages to suit everybodies needs" 
                 />
-                <main>
+                <div style={styles.containerDiv.overall}>
                 <Container>
-                        <Row>
+                        <Row className="priceCard-row">
                             <Col lg={true}>
-                                <div>
+                                <div className="priceCard-div">
                                     <PriceCard
                                         title="Oven Cleaning"
                                         intro="Here is a list of our oven cleaning prices" 
@@ -40,7 +47,7 @@ class PricePage extends Component {
                                 </div>
                             </Col>
                             <Col lg={true}>
-                                <div>
+                                <div className="priceCard-div">
                                     <PriceCard
                                         title="End of Tenancy Cleaning"
                                         intro="Here is a list of our end of tenancy cleaning prices" 
@@ -61,7 +68,7 @@ class PricePage extends Component {
                                 </div>
                             </Col>
                             <Col lg={true}>
-                                <div>
+                                <div className="priceCard-div">
                                     <PriceCard
                                         title="General Cleaning"
                                         intro="Here is a list of our general cleaning prices" 
@@ -79,9 +86,9 @@ class PricePage extends Component {
                                 </div>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className="priceCard-row">
                             <Col lg={true}>
-                                <div>
+                                <div className="priceCard-div">
                                     <PriceCard
                                         title="Commercial Cleaning"
                                         intro="Here is a list of our commercial cleaning prices" 
@@ -91,7 +98,7 @@ class PricePage extends Component {
                                 </div>
                             </Col>
                             <Col lg={true}>
-                                <div>
+                                <div className="priceCard-div">
                                     <PriceCard
                                         title="Yasmin17"
                                         intro="Save £10 by taking advantage of this package" 
@@ -104,7 +111,7 @@ class PricePage extends Component {
                                 </div>
                             </Col>
                             <Col lg={true}>
-                                <div>
+                                <div className="priceCard-div">
                                     <PriceCard
                                         title="Aaliyah14"
                                         intro="Save £10 by taking advantage of this package" 
@@ -118,7 +125,7 @@ class PricePage extends Component {
                             </Col>
                         </Row>
                     </Container>
-                </main>
+                </div>
             </div>
         )
     }
