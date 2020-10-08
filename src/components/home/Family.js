@@ -17,15 +17,18 @@ class Family extends Component {
             },
             containerDiv: {
                 overall: {
-                    padding: "10rem 0 10rem 0"
+                    padding: "10rem 0 10rem 0",
+                    backgroundColor: "#000"
                 }
             },
             whyChoose: {
                 title: {
-                    fontSize: "4rem"
+                    fontSize: "4rem",
+                    color: "#95d6fe"
                 },
                 listItems: {
-                    fontSize: "2rem"
+                    fontSize: "2rem",
+                    color: "#95d6fe"
                 },
                 subHeading: {
                     fontSize: "3rem"

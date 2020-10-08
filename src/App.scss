@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @import "components/contact/contact";
+@import "components/Hero";
 @import "components/home/home";
 @import "components/pricing/PriceCard";
 //GLOBAL RESET
@@ -16,6 +17,17 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#95d6fe, #95d6fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: #95d6fe;
 }
 
 .navbar {

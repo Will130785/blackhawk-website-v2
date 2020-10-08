@@ -12,20 +12,28 @@ class Hero extends Component {
 
         const style = {
             heading: {
-                fontSize: "5rem"
+                fontSize: "6rem"
             },
             paragraph: {
                 fontSize: "1.8rem"
+            },
+            background: {
+                backgroundColor: "#000"
+            },
+            content: {
+                display: "flex",
+                flexDirection: "column",
+                textAlign: "center"
             }
         }
         return (
-            <Jumbotron>
+            <Jumbotron style={style.background}>
                 <Container>
                     <Row>
-                        <Col lg={true}>
+                        <Col className="headLogo" lg={true}>
                             <img className="logo-big" src={LogoBig} alt="Logo"/>
                         </Col>
-                        <Col lg={true}>
+                        <Col style={style.content} lg={true}>
                             <h1 style={style.heading}>{this.props.title}</h1>
                             <p style={style.paragraph}>{this.props.blurb}</p>
                         </Col>
