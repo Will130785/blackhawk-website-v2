@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Logo1 from "../../img/family/companylogo1.png";
-import Logo2 from "../../img/family/companylogo2.png";
 import Logo3 from "../../img/family/companylogo3.png";
 import Logo4 from "../../img/family/companylogo4.png";
 import Logo5 from "../../img/family/companylogo5.png";
