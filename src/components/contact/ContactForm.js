@@ -18,10 +18,15 @@ return (
         </label>
         <input type="email" id="defaultFormContactEmailEx" name="email" className="form-control" />
         <br />
-        <label htmlFor="defaultFormContactSubjectEx" className="grey-text">
-          Subject
+        <label htmlFor="defaultFormContactPhoneEx" className="grey-text">
+          Phone Number
         </label>
-        <input type="text" id="defaultFormContactSubjectEx" name="subject" className="form-control" />
+        <input type="number" id="defaultFormContactPhoneEx" name="phone" className="form-control" />
+        <br />
+        <label htmlFor="defaultFormContactSubjectEx" className="grey-text">
+          Postcode
+        </label>
+        <input type="text" id="defaultFormContactPostEx" name="postcode" className="form-control" />
         <br />
         <label htmlFor="defaultFormContactMessageEx" className="grey-text">
           Your message

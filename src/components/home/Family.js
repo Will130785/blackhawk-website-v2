@@ -17,8 +17,7 @@ class Family extends Component {
             },
             containerDiv: {
                 overall: {
-                    padding: "10rem 0 10rem 0",
-                    backgroundColor: "#000"
+                    padding: "10rem 0 10rem 0"
                 }
             },
             whyChoose: {

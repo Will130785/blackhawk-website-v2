@@ -18,7 +18,7 @@ class Hero extends Component {
                 fontSize: "1.8rem"
             },
             background: {
-                backgroundColor: "#000"
+                backgroundColor: "#231f20"
             },
             content: {
                 display: "flex",

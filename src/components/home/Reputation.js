@@ -33,12 +33,13 @@ class Reputation extends Component {
                 <Container>
                     <Row>
                         <Col lg={{span: 6, order: 1}} xs={{span: 12, order: 2}}>
+                            <h2>Recommended by</h2>
                             <ul style={styles.listItems}>
                                 <li>Hollyoaks star Richard Blackwood</li>
-                                <li>Love Island 2017 contestant Tyla Carr - "Amazing job. I will definitely recommend to my family and friends"</li>
-                                <li>UK Garage artist Dennis G (sambuca) - "Excellent service. Highly recommended"</li>
-                                <li>Author of the book The Lost Boyz Justin Rollins - "Oven is literally brand new! Great service"</li>
-                                <li>Former Britain's got talent contestant DJ Talent - "Very impressed with my new oven"</li>
+                                <li>Love Island 2017 contestant Tyla Carr</li>
+                                <li>UK Garage artist Dennis G (sambuca)</li>
+                                <li>Author of the book The Lost Boyz Justin Rollins</li>
+                                <li>Former Britain's got talent contestant DJ Talent</li>
                             </ul>
                         </Col>
                         <Col className="repTitle" style={styles.cols.title} lg={{span: 6, order: 2}} xs={{span: 12, order: 1}}>

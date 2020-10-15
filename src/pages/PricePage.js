@@ -36,6 +36,7 @@ class PricePage extends Component {
                                                       "3 Range oven - £85",
                                                       "Oven Trays - £4 per tray",
                                                       "4 Ring Hob - £15",
+                                                      "6 Ring Hob -  £18",
                                                       "8 Ring Hob - £20",
                                                       "Halogen Hobs £10",
                                                       "Small Extractor ( including replacement filter) - £15",
@@ -51,16 +52,17 @@ class PricePage extends Component {
                                     <PriceCard
                                         title="End of Tenancy Cleaning"
                                         intro="Here is a list of our end of tenancy cleaning prices" 
-                                        listItems={["1-Bedroom flat - £150",
-                                                    "2-Bedroom flat - £230",
-                                                    "3-Bedroom flat - £320",
-                                                    "4-Bedroom flat - £360",
-                                                    "5-Bedroom flat - £440",
-                                                    "1-Bedroom house - £160",
-                                                    "2-Bedroom house - £250",
-                                                    "3-Bedroom house - £350",
-                                                    "4-Bedroom house - £410",
-                                                    "5-Bedroom house - £500"
+                                        listItems={["Studio flat - £60",
+                                                    "1-Bedroom 1 Bathroom  - £120",
+                                                    "2-Bedroom 1 Bathroom - £140",
+                                                    "2-Bedroom 2 Bathroom - £160",
+                                                    "3-Bedroom 1 Bathroom - £180",
+                                                    "3-Bedroom 2 Bathroom - £220",
+                                                    "4-Bedroom 1 Bathroom - £260",
+                                                    "4-Bedroom 2 Bathroom - £300",
+                                                    "4-Bedroom 3 Bathroom - £330",
+                                                    "5-Bedroom 2 Bathroom - £370",
+                                                    "5-Bedroom 3 Bathroom - £400"
                                                     
                                                 ]} 
                     
@@ -91,8 +93,8 @@ class PricePage extends Component {
                                 <div className="priceCard-div">
                                     <PriceCard
                                         title="Commercial Cleaning"
-                                        intro="Here is a list of our commercial cleaning prices" 
-                                        listItems={["List item 1", "List item 2", "List item 3"]} 
+                                        intro="Please email us and we will get back to you within 24 hours" 
+                                        
                     
                                     />
                                 </div>

@@ -31,12 +31,12 @@ class Service extends Component {
                     <Row>
                         <Col lg={true}>
                             <div>
-                                <h2 style={styles.title.heading}>{this.props.title}</h2>
+                                {this.props.left}
                             </div>
                         </Col>
                         <Col lg={true}>
                             <div>
-                                <p style={styles.description.paragraph}>{this.props.paragraph}</p>
+                                {this.props.right}
                             </div>
                         </Col>
                     </Row>

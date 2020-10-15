@@ -9,7 +9,7 @@ class FamilyPage extends Component {
             <div>
                 <Hero 
                     title="The Blackhawk Family"
-                    blurb={<div><p>Here are a selection of companies that we are proud to consider part of the Blackhawk family and highly recommend to all of our customers</p><p>We have built a strong relationship over many years with all of these companies. If you would like any more details about any of our associated business's, please do get in contact.</p></div>} 
+                    blurb={<div><p>These are companies we work with and highly recommend </p></div>} 
                 />
                 <Companies />
             </div>

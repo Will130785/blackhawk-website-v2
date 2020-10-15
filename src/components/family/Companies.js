@@ -17,7 +17,8 @@ class Companies extends Component {
         const styles = {
             containerDiv: {
                 overall: {
-                    padding: "10rem 0 10rem 0"
+                    padding: "10rem 0 10rem 0",
+                    backgroundColor: "#fff"
                 }
             },
             images: {
@@ -38,7 +39,7 @@ class Companies extends Component {
                         </Col>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo2} alt="Logo" />
+                                <img style={styles.images.picture} src={Logo7} alt="Logo" />
                             </div>
                         </Col>
                         <Col>
@@ -63,20 +64,6 @@ class Companies extends Component {
                             <div>
                                 <img style={styles.images.picture} src={Logo6} alt="Logo" />
                             </div>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col>
-                            <div>
-                                <img style={styles.images.picture} src={Logo7} alt="Logo" />
-                            </div>
-                        </Col>
-                        <Col>
-                        
-                        </Col>
-                        <Col>
-                            
                         </Col>
                     </Row>
                 </Container>

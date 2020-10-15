@@ -15,9 +15,9 @@ class PriceCard extends Component {
                     <Card.Text>{this.props.intro}</Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
-                    {this.props.listItems.map(item => {
+                    {this.props.listItems ? this.props.listItems.map(item => {
                         return <ListGroupItem>{item}</ListGroupItem>
-                    })}
+                    }) : ``}
                     {/* <ListGroupItem>Cras justo odio</ListGroupItem>
                     <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
                     <ListGroupItem>Vestibulum at eros</ListGroupItem> */}

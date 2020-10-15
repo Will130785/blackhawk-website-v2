@@ -15,7 +15,8 @@ class Footer extends Component {
         const styles = {
             footer: {
                 overall: {
-                    padding: "5rem 0"
+                    padding: "5rem 0",
+                    backgroundColor: "#fff"
                 }
             },
             contact: {
