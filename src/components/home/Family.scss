@@ -1,0 +1,31 @@
+.familyDiv {
+    @media only screen and (max-width: 960px) {
+        margin-bottom: 5rem;
+    }
+}
+
+.family {
+    padding: 10rem 0 10rem 0;
+
+    &__img {
+
+        &--pic {
+
+            width: 100%;
+        }
+    }
+
+    &__content {
+
+        h2 {
+            font-size: 4rem;
+            color: #95d6fe;
+        }
+        
+
+        ul, p {
+            font-size: 2rem;
+            color: #95d6fe;
+        }
+    }
+}

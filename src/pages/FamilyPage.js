@@ -7,10 +7,7 @@ class FamilyPage extends Component {
     render() {
         return (
             <div>
-                <Hero 
-                    title="The Blackhawk Family"
-                    blurb={<div><p>These are companies we work with and highly recommend </p></div>} 
-                />
+                <Hero />
                 <Companies />
             </div>
         )

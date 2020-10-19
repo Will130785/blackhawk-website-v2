@@ -6,10 +6,7 @@ class GalleryPage extends Component {
     render() {
         return (
             <div>
-                <Hero 
-                    title="Gallery"
-                    blurb="Take a look at a selection of photos from a number of jobs that we have carried out" 
-                />
+                <Hero />
             </div>
         )
     }

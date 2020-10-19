@@ -8,10 +8,7 @@ class ServicesPage extends Component {
 
         return (
             <div>
-                <Hero 
-                    title="Our Services"
-                    blurb="Take a look at the services that we offer" 
-                />
+                <Hero />
                 <Service
                     title="Oven Cleaning"
                     paragraph="This will be a description of our oven cleaning services"

@@ -9,10 +9,7 @@ class OvenPage extends Component {
     render() {
         return (
             <div>
-                <Hero 
-                    title="Oven Cleaning"
-                    blurb="Take a look at the oven cleaning services that we offer" 
-                />
+                <Hero />
                 <Service
                     left={<img src={Oven1} style={{width: "100%"}} alt="oven"/>}
                     right={<div>

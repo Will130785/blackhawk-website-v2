@@ -1,0 +1,22 @@
+.about {
+
+    &__content {
+
+        h2 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+    }
+
+    &__img {
+
+
+        &--pic {
+            width: 100%;
+        }
+    }
+}

@@ -7,10 +7,7 @@ class AreasPage extends Component {
 
         return (
             <div>
-                <Hero 
-                    title="Areas we cover"
-                    blurb="Here is a break down of the areas that we currently cover" 
-                />
+                <Hero />
             </div>
         )
     }

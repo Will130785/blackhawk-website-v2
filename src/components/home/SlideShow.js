@@ -9,7 +9,7 @@ class SlideShow extends Component {
         const styles = {
             carousel: {
                 item: {
-                    height: "40rem"
+                    height: "60rem"
                 },
                 picture: {
                     height: "100%",

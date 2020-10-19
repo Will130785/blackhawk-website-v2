@@ -1,0 +1,24 @@
+.reputation {
+    padding: 10rem 0 10rem 0;
+
+    &__heading {
+
+        h2 {
+            font-size: 5rem;
+        }
+        @media only screen and (max-width: 960px) {
+            margin-bottom: 5rem;
+        }
+    }
+
+    &__content {
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        ul {
+            font-size: 2rem;
+        }
+    }
+}

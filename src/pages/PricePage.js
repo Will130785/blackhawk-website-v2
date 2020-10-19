@@ -17,10 +17,7 @@ class PricePage extends Component {
         }
         return (
             <div>
-                <Hero 
-                    title="Pricing"
-                    blurb="Check out our prices and packages to suit everybodies needs" 
-                />
+                <Hero />
                 <div style={styles.containerDiv.overall}>
                 <Container>
                         <Row className="priceCard-row">

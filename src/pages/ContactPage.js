@@ -19,10 +19,7 @@ class ContactPage extends Component {
 
         return (
             <div>
-                <Hero 
-                    title="Contact us"
-                    blurb="Get in contact with us today for a quote" 
-                />
+                <Hero />
                 <div style={styles.containerDiv.overall}>
                 <Container>
                     <Row>

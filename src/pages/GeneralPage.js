@@ -6,10 +6,7 @@ class GeneralPage extends Component {
     render() {
         return (
             <div>
-                <Hero 
-                    title="General Cleaning Services"
-                    blurb="Take a look at the general cleaning services that we offer" 
-                />
+                <Hero />
             </div>
         )
     }

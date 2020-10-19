@@ -1,0 +1,22 @@
+.what {
+    padding: 10rem 0 10rem 0;
+
+    &__content {
+
+        h2 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    &__img {
+
+        &--pic {
+
+            width: 100%;
+        }
+    }
+}
