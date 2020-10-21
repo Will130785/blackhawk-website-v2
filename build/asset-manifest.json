@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2e64e85a.chunk.css",
-    "main.js": "/static/js/main.b506526b.chunk.js",
-    "main.js.map": "/static/js/main.b506526b.chunk.js.map",
+    "main.js": "/static/js/main.87a400f7.chunk.js",
+    "main.js.map": "/static/js/main.87a400f7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f49cf2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f49cf2d.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.aa44820f.chunk.js": "/static/js/2.aa44820f.chunk.js",
-    "static/js/2.aa44820f.chunk.js.map": "/static/js/2.aa44820f.chunk.js.map",
+    "static/js/2.3f1bde44.chunk.js": "/static/js/2.3f1bde44.chunk.js",
+    "static/js/2.3f1bde44.chunk.js.map": "/static/js/2.3f1bde44.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.629fc611ae2fd370290c923a03c56a3a.js": "/precache-manifest.629fc611ae2fd370290c923a03c56a3a.js",
+    "precache-manifest.86a2fe7c667abebba47029bd3068f36f.js": "/precache-manifest.86a2fe7c667abebba47029bd3068f36f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.2e64e85a.chunk.css.map": "/static/css/main.2e64e85a.chunk.css.map",
-    "static/js/2.aa44820f.chunk.js.LICENSE.txt": "/static/js/2.aa44820f.chunk.js.LICENSE.txt",
+    "static/js/2.3f1bde44.chunk.js.LICENSE.txt": "/static/js/2.3f1bde44.chunk.js.LICENSE.txt",
     "static/media/TBRBadgetransbackground.png": "/static/media/TBRBadgetransbackground.0f07497d.png",
     "static/media/Yell_RGB.png": "/static/media/Yell_RGB.a6a58bb3.png",
     "static/media/companylogo1.png": "/static/media/companylogo1.f9299be0.png",
@@ -24,7 +24,6 @@
     "static/media/companylogo7.png": "/static/media/companylogo7.2abcd19a.png",
     "static/media/covid.jpg": "/static/media/covid.cc92d9df.jpg",
     "static/media/facebook-round-line-color.svg": "/static/media/facebook-round-line-color.7cacca0d.svg",
-    "static/media/family.jpeg": "/static/media/family.23bc6862.jpeg",
     "static/media/instagram-color.svg": "/static/media/instagram-color.4c2bce42.svg",
     "static/media/logo-small.jpg": "/static/media/logo-small.916c81a3.jpg",
     "static/media/logo3d.jpeg": "/static/media/logo3d.a75e53ab.jpeg",
@@ -36,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.9f49cf2d.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.aa44820f.chunk.js",
+    "static/js/2.3f1bde44.chunk.js",
     "static/css/main.2e64e85a.chunk.css",
-    "static/js/main.b506526b.chunk.js"
+    "static/js/main.87a400f7.chunk.js"
   ]
 }
