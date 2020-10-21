@@ -12,6 +12,7 @@ class Hero extends Component {
 
        
         return (
+            
             <Jumbotron className="hero">
                 <Container>
                     <Row>
