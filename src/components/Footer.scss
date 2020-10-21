@@ -1,0 +1,39 @@
+.footer {
+
+    padding: 5rem 0;
+
+    &__contact {
+
+        &--company {
+            font-size: 1.8rem;
+        }
+
+        &--phone {
+            font-size: 1.6rem;
+        }
+    }
+
+    &__social-container {
+        display: flex;
+
+        &--icon {
+            height: 5rem;
+            width: 5rem;
+        }
+    }
+
+    &__company {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+        &--image {
+            width: 15%;
+        }
+
+        &--pic {
+            width: 100%;
+        }
+    }
+}

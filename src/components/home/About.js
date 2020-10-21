@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import aboutPic from "../../img/oven-cleaning/oven1.jpeg";
+import aboutPic from "../../img/logo/logo3d.jpeg";
 
 class About extends Component {
     
@@ -11,7 +11,7 @@ class About extends Component {
         return (
             <div className="about">
                 <Container>
-                    <Row>
+                    <Row className="about__row">
                         <Col lg={true}>
                             <div className="about__content">
                                 <h2>About Us</h2>

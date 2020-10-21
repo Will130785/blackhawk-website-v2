@@ -12,7 +12,7 @@ class Navigation extends Component {
     render() {
 
         return (
-            <Navbar variant="dark" expand="lg">
+            <Navbar variant="dark" expand="lg" fixed="top">
                 <Navbar><A href="/"><img className="logo" src={Logo} alt="Logo" /></A></Navbar>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" collapseOnSelect>

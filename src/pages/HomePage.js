@@ -16,10 +16,6 @@ class HomePage extends Component {
                 <Hero />
                 <About />
                 <Reputation />
-                <Why />
-                <What />
-                <Family />
-                <Franchise />
             </div>
         )
     }

@@ -18,11 +18,41 @@
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+
         h1 {
-            font-size: 6rem;
+            font-size: 12rem;
             color: #fff;
+            font-family: 'Archivo Black', sans-serif;
+
+            @media only screen and (max-width: 960px) {
+                font-size: 10rem;
+            }
+        }
+
+        h2 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 3rem;
+            color: #fff;
+            margin: 5rem 0;
+
+            @media only screen and (max-width: 700px) {
+                font-size: 5rem;
+            }
         }
     }
+}
+
+.black {
+    color: #95d6fe;
+}
+
+.logo-3d {
+    width: 110%;
 }

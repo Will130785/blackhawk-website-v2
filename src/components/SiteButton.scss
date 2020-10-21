@@ -1,0 +1,20 @@
+.btn.btn-primary.site-button {
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+
+    @media only screen and (max-width: 960px) {
+        font-size: 2.5rem;
+        padding: 1.2rem 4rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        font-size: 3rem;
+        padding: 1.5rem 4.5rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 4rem;
+        padding: 2rem 6rem;
+    }
+}

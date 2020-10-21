@@ -1,11 +1,44 @@
+.navbar {
+  background-color: #231f20;
+}
+
+.logo {
+  width: 12rem;
+  height: 8rem;
+
+  @media only screen and (max-width: 700px) {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
+    height: 13rem;
+  }
+}
+
+.covid {
+  width: 5rem;
+  height: 5rem;
+
+  @media only screen and (max-width: 700px) {
+    width: 8rem;
+    height: 8rem;
+}
+}
+
 .navbar-nav {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
 
-    @media only screen and (max-width: 960px) {
+    @media only screen and (max-width: 990px) {
         height: 90vh;
     }
+
+    @media only screen and (max-width: 600px) {
+      height: 95vh;
+  }
 }
 
 .navbar-dark {
@@ -13,9 +46,27 @@
   .navbar-nav {
 
     .nav-link {
-      font-size: 1.6rem;
+      font-size: 2rem;
       color: #fff;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 5rem;
     }
+    }
+
+    .nav-link:hover {
+      color: #95d6fe;
+      background-color: #231f20;
+    }
+
+    .dropdown-menu {
+      background-color: #231f20;
+    }
+
+    .dropdown-item:hover {
+      background-color: #231f20;
+    }
+
   }
 }
 
@@ -24,10 +75,18 @@
 }
 
 .a-link {
-  font-size: 1.6rem;
-  color: #858383;
+  font-size: 2rem;
+  color: #fff;
 
   @media only screen and (max-width: 960px) {
     margin: 3rem 0;
   }
+
+  @media only screen and (max-width: 600px) {
+    font-size: 5rem;
+}
+}
+
+.a-link:hover {
+  color: #95d6fe;
 }

@@ -5,20 +5,68 @@
 
         h2 {
             font-size: 5rem;
+
+            @media only screen and (max-width: 700px) {
+                font-size: 6rem;
+            }
         }
+
+
         @media only screen and (max-width: 960px) {
             margin-bottom: 5rem;
         }
     }
 
     &__content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        @media only screen and (max-width: 960px) {
+            align-items: center;
+        }
 
         h2 {
-            font-size: 3rem;
+            font-size: 5rem;
+            align-self: center;
+
+            @media only screen and (max-width: 960px) {
+                align-self: flex-start;
+                margin: 10rem 0;
+            }
+
+            @media only screen and (max-width: 700px) {
+                font-size: 6rem;
+            }
         }
 
         ul {
-            font-size: 2rem;
+            font-size: 3rem;
+            list-style: none;
+
+            @media only screen and (max-width: 700px) {
+                font-size: 4rem;
+            }
         }
+        
+    }
+
+    &__img {
+
+        &--pic {
+
+            width: 100%;
+        }
+    }
+}
+
+.reputation svg {
+    font-size: 5rem;
+    height: 10rem;
+
+    @media only screen and (max-width: 700px) {
+        font-size: 8rem;
     }
 }
