@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "865f2457a840cdc8a4a20089cf1476e4",
+    "revision": "5c8b6799b2f1ff17d1cbd593037f69a8",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "69660ad73752c1d50be3",
-    "url": "/static/css/main.8b808761.chunk.css"
+    "revision": "6c97f9e4b5e1cbb6cab3",
+    "url": "/static/css/main.80b4fca4.chunk.css"
   },
   {
     "revision": "ca6c3aa87f1b819fc082",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3f1bde44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "69660ad73752c1d50be3",
-    "url": "/static/js/main.060c28dd.chunk.js"
+    "revision": "6c97f9e4b5e1cbb6cab3",
+    "url": "/static/js/main.ec7186c7.chunk.js"
   },
   {
     "revision": "ef1bbb5f59945fea30a4",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/naomi-hebert-MP0bgaS_d1c-unsplash.58986750.jpg"
   },
   {
-    "revision": "e09eebb5ee7da1e0195d2b016769b011",
-    "url": "/static/media/oven1.e09eebb5.jpeg"
+    "revision": "72851441c04bc70ea3455961919e6c4a",
+    "url": "/static/media/oven1.72851441.jpeg"
   },
   {
     "revision": "95dd9462f35bd7148894bbafcc2941c5",

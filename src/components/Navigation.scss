@@ -18,8 +18,9 @@
 }
 
 .covid {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;
 
   @media only screen and (max-width: 700px) {
     width: 8rem;
@@ -31,17 +32,17 @@
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
+    
 
     @media only screen and (max-width: 990px) {
-        height: 90vh;
+        height: 85vh;
     }
-
-    @media only screen and (max-width: 600px) {
-      height: 95vh;
-  }
 }
 
 .navbar-dark {
+  -webkit-box-shadow: -5px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -5px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: -5px 10px 5px 0px rgba(0,0,0,0.75);
 
   .navbar-nav {
 
