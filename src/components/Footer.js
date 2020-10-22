@@ -22,8 +22,8 @@ class Footer extends Component {
                                     <p className="footer__contact--company">Blackhawk Oven Cleaning & Property Services</p>
                                     <p className="footer__contact--phone">0345 257 8322</p>
                                     <div className="footer__social-container">
-                                        <a href="https://www.facebook.com/blackhawkovencleaning18" target="_blank"><img className="footer__social-container--icon" src={Facebook} alt="Facebook Logo" /></a>
-                                        <a href="https://www.instagram.com/blackhawkpropertycare/?hl=en" target="_blank"><img className="footer__social-container--icon" src={Instagram} alt="Instagram Logo" /></a>
+                                        <a href="https://www.facebook.com/blackhawkovencleaning18" target="_blank" rel="noopener noreferrer"><img className="footer__social-container--icon" src={Facebook} alt="Facebook Logo" /></a>
+                                        <a href="https://www.instagram.com/blackhawkpropertycare/?hl=en" target="_blank" rel="noopener noreferrer"><img className="footer__social-container--icon" src={Instagram} alt="Instagram Logo" /></a>
                                     </div>
                                 </div>
                             </Col>
