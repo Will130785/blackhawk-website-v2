@@ -26,7 +26,7 @@ class Reputation extends Component {
                         <Col lg={true}>
                             <div className="reputation__content">
                                 <h2>Recommended by</h2>
-                                <ul>
+                                <ul style={Animate}>
                                     <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> Hollyoaks star Richard Blackwood</li>
                                     <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> Love Island 2017 contestant Tyla Carr</li>
                                     <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> UK Garage artist Dennis G (sambuca)</li>
