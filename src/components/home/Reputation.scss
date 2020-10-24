@@ -5,6 +5,7 @@
 
         h2 {
             font-size: 5rem;
+            color: #d4af37;
 
             @media only screen and (max-width: 700px) {
                 font-size: 6rem;
@@ -31,6 +32,7 @@
         h2 {
             font-size: 5rem;
             align-self: center;
+            color: #d4af37;
 
             @media only screen and (max-width: 960px) {
                 align-self: flex-start;
@@ -68,6 +70,7 @@
 .reputation svg {
     font-size: 5rem;
     height: 10rem;
+    color: #d4af37;
 
     @media only screen and (max-width: 700px) {
         font-size: 8rem;

@@ -5,9 +5,11 @@ import Col from "react-bootstrap/Col";
 import Facebook from "../img/footer/facebook-round-line-color.svg";
 import Instagram from "../img/footer/instagram-color.svg";
 import Google from "../img/footer/google-logo.png";
-import Thompson from "../img/footer/thompson.jpg";
+import Thompson from "../img/footer/thompson.png";
 import Yell from "../img/footer/Yell_RGB.png";
 import Three from "../img/footer/TBRBadgetransbackground.png";
+import Three2019 from "../img/footer/three2019.png";
+import Bark from "../img/footer/bark2019.png";
 
 class Footer extends Component {
 
@@ -40,6 +42,12 @@ class Footer extends Component {
                                         </figure>
                                         <figure className="footer__company--image">
                                             <img className="footer__company--pic" src={Three} alt="Google Logo" /> 
+                                        </figure>
+                                        <figure className="footer__company--image">
+                                            <img className="footer__company--pic" src={Three2019} alt="Google Logo" /> 
+                                        </figure>
+                                        <figure className="footer__company--image">
+                                            <img className="footer__company--pic" src={Bark} alt="Google Logo" /> 
                                         </figure>
                                     </div>
                             </Col>

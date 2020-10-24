@@ -10,11 +10,11 @@
       rgba(14, 24, 33, 0.8)),
        url("../img/home/naomi-hebert-MP0bgaS_d1c-unsplash.jpg");
     background-size: cover;
-    min-height: 100vh;
     display: flex;
     align-items: center;
 
     &__header {
+        padding-top: 18rem;
         width: 100%;
         height: 100%;
         display: flex;
@@ -56,4 +56,15 @@
 
 .logo-3d {
     width: 110%;
+}
+
+.price-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.price {
+    width: 20rem;
+    height: 20rem;
 }

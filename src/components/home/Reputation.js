@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import repPic from "../../img/oven-cleaning/oven1.jpeg";
 import { AiFillStar } from 'react-icons/ai';
+import Animate from "animate.css";
 
 class Reputation extends Component {
 
@@ -26,11 +27,11 @@ class Reputation extends Component {
                             <div className="reputation__content">
                                 <h2>Recommended by</h2>
                                 <ul>
-                                    <li><AiFillStar /> Hollyoaks star Richard Blackwood</li>
-                                    <li><AiFillStar /> Love Island 2017 contestant Tyla Carr</li>
-                                    <li><AiFillStar /> UK Garage artist Dennis G (sambuca)</li>
-                                    <li><AiFillStar /> Author of the book The Lost Boyz Justin Rollins</li>
-                                    <li><AiFillStar /> Former Britain's got talent contestant DJ Talent</li>
+                                    <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> Hollyoaks star Richard Blackwood</li>
+                                    <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> Love Island 2017 contestant Tyla Carr</li>
+                                    <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> UK Garage artist Dennis G (sambuca)</li>
+                                    <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> Author of the book The Lost Boyz Justin Rollins</li>
+                                    <li><AiFillStar className="star animate__animated animate__flash animate__infinite infinite animate__slower" /> Southampton FC legend Matt Le Tissier</li>
                                 </ul>
                             </div>
                         </Col>

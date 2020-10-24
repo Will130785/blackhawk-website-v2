@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.80b4fca4.chunk.css",
-    "main.js": "/static/js/main.19c4b9fd.chunk.js",
-    "main.js.map": "/static/js/main.19c4b9fd.chunk.js.map",
+    "main.css": "/static/css/main.50e5711a.chunk.css",
+    "main.js": "/static/js/main.f7a0d8d8.chunk.js",
+    "main.js.map": "/static/js/main.f7a0d8d8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f49cf2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f49cf2d.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3f1bde44.chunk.js": "/static/js/2.3f1bde44.chunk.js",
-    "static/js/2.3f1bde44.chunk.js.map": "/static/js/2.3f1bde44.chunk.js.map",
+    "static/css/2.ae85870d.chunk.css": "/static/css/2.ae85870d.chunk.css",
+    "static/js/2.1e8a6163.chunk.js": "/static/js/2.1e8a6163.chunk.js",
+    "static/js/2.1e8a6163.chunk.js.map": "/static/js/2.1e8a6163.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bdf4d27a4625217bda7d929859b2cf23.js": "/precache-manifest.bdf4d27a4625217bda7d929859b2cf23.js",
+    "precache-manifest.c0e01064c966cf680d94b558ef8f3db6.js": "/precache-manifest.c0e01064c966cf680d94b558ef8f3db6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.80b4fca4.chunk.css.map": "/static/css/main.80b4fca4.chunk.css.map",
-    "static/js/2.3f1bde44.chunk.js.LICENSE.txt": "/static/js/2.3f1bde44.chunk.js.LICENSE.txt",
+    "static/css/2.ae85870d.chunk.css.map": "/static/css/2.ae85870d.chunk.css.map",
+    "static/css/main.50e5711a.chunk.css.map": "/static/css/main.50e5711a.chunk.css.map",
+    "static/js/2.1e8a6163.chunk.js.LICENSE.txt": "/static/js/2.1e8a6163.chunk.js.LICENSE.txt",
     "static/media/TBRBadgetransbackground.png": "/static/media/TBRBadgetransbackground.0f07497d.png",
     "static/media/Yell_RGB.png": "/static/media/Yell_RGB.a6a58bb3.png",
+    "static/media/bark2019.png": "/static/media/bark2019.af5e9bf3.png",
     "static/media/companylogo1.png": "/static/media/companylogo1.f9299be0.png",
     "static/media/companylogo3.png": "/static/media/companylogo3.7a0d84d8.png",
     "static/media/companylogo4.png": "/static/media/companylogo4.573bdbc9.png",
@@ -30,13 +31,15 @@
     "static/media/App.scss": "/static/media/naomi-hebert-MP0bgaS_d1c-unsplash.58986750.jpg",
     "static/media/oven1.jpeg": "/static/media/oven1.72851441.jpeg",
     "static/media/oven2.jpeg": "/static/media/oven2.95dd9462.jpeg",
-    "static/media/thompson.jpg": "/static/media/thompson.1787cd32.jpg"
+    "static/media/price.png": "/static/media/price.0d8cc779.png",
+    "static/media/thompson.png": "/static/media/thompson.c2098e98.png",
+    "static/media/three2019.png": "/static/media/three2019.ed35faa4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9f49cf2d.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3f1bde44.chunk.js",
-    "static/css/main.80b4fca4.chunk.css",
-    "static/js/main.19c4b9fd.chunk.js"
+    "static/css/2.ae85870d.chunk.css",
+    "static/js/2.1e8a6163.chunk.js",
+    "static/css/main.50e5711a.chunk.css",
+    "static/js/main.f7a0d8d8.chunk.js"
   ]
 }
