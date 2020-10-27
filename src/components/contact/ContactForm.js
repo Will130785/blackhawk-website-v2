@@ -1,48 +1,37 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
+import 'rsuite/dist/styles/rsuite-default.css';
+import { Form, FormGroup, FormControl, ControlLabel, HelpBlock, Button, ButtonToolbar } from 'rsuite';
 
 const FormPage = () => {
 return (
-<MDBContainer>
-  <MDBRow>
-    <MDBCol md="12">
-      <form action="https://formspree.io/f/xpzoqyvp" method="POST">
-        <p className="h4 text-center mb-4">Write to us</p>
-        <label htmlFor="defaultFormContactNameEx" className="grey-text">
-          Your name
-        </label>
-        <input type="text" id="defaultFormContactNameEx" name="name" className="form-control" />
-        <br />
-        <label htmlFor="defaultFormContactEmailEx" className="grey-text">
-          Your email
-        </label>
-        <input type="email" id="defaultFormContactEmailEx" name="email" className="form-control" />
-        <br />
-        <label htmlFor="defaultFormContactPhoneEx" className="grey-text">
-          Phone Number
-        </label>
-        <input type="number" id="defaultFormContactPhoneEx" name="phone" className="form-control" />
-        <br />
-        <label htmlFor="defaultFormContactSubjectEx" className="grey-text">
-          Postcode
-        </label>
-        <input type="text" id="defaultFormContactPostEx" name="postcode" className="form-control" />
-        <br />
-        <label htmlFor="defaultFormContactMessageEx" className="grey-text">
-          Your message
-        </label>
-        <textarea type="text" id="defaultFormContactMessageEx" name="message" className="form-control" rows="3" />
-        <div className="text-center mt-4">
-                  <MDBBtn color="warning" outline type="submit">
-                    Send
-                    <MDBIcon far icon="paper-plane" className="ml-2" />
-                  </MDBBtn>
-                </div>
-              </form>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
-      );
-    };
+  <Form fluid>
+    <FormGroup>
+      <ControlLabel>Username</ControlLabel>
+      <FormControl name="name" />
+      <HelpBlock>Required</HelpBlock>
+    </FormGroup>
+    <FormGroup>
+      <ControlLabel>Email</ControlLabel>
+      <FormControl name="email" type="email" />
+      <HelpBlock>Required</HelpBlock>
+    </FormGroup>
+    <FormGroup>
+      <ControlLabel>Password</ControlLabel>
+      <FormControl name="password" type="password" />
+    </FormGroup>
+    <FormGroup>
+      <ControlLabel>Textarea</ControlLabel>
+      <FormControl rows={5} name="textarea" componentClass="textarea" />
+    </FormGroup>
+    <FormGroup>
+      <ButtonToolbar>
+        <Button appearance="primary">Submit</Button>
+        <Button appearance="default">Cancel</Button>
+      </ButtonToolbar>
+    </FormGroup>
+  </Form>
+
+      )
+    }
 
     export default FormPage;

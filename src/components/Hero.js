@@ -20,8 +20,8 @@ class Hero extends Component {
                         <Col lg={true}>
                             <div className="hero__header">
                                 <h2>Welcome to</h2>
-                                <h1><span className="black">BLACK</span><span className="hawk">HAWK</span></h1>
-                                <h2>OVEN CLEANING & PROPERTY SERVICES</h2>
+                                <h1 className="hero__header--main"><span className="black">BLACK</span><span className="hawk">HAWK</span></h1>
+                                <h2>OVEN CLEANING & PROPERTY CARE</h2>
                                 <p>The future of oven cleaning and property care services! Get in contact now for a free quote</p>
                                 <SiteButton location="/contact" content="Free Quote" />
                                 <div className="price-container">

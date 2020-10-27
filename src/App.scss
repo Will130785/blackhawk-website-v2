@@ -6,12 +6,17 @@
 @import "components/Footer";
 @import "components/Hero";
 
+@import "components/franchise/Franchise";
+
 @import "components/home/About";
 @import "components/home/Family";
-@import "components/home/Franchise";
 @import "components/home/Reputation";
-@import "components/home/What";
-@import "components/home/Why";
+
+@import "components/oven/Intro";
+@import "components/oven/OvenPrice";
+@import "components/oven/Training";
+@import "components/oven/What";
+@import "components/oven/Why";
 
 @import "components/Navigation";
 @import "components/SiteButton";

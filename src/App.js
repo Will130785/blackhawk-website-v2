@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import 'rsuite/dist/styles/rsuite-default.css';
 import {BrowserRouter as Router} from "react-router-dom";
 import {useRoutes} from "hookrouter";
 
@@ -16,13 +17,11 @@ import FamilyPage from "./pages/FamilyPage";
 import PricePage from "./pages/PricePage";
 import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
-import ServicesPage from "./pages/ServicesPage";
 import Footer from "./components/Footer";
 
 const routes = {
   "/": () => <HomePage />,
   "/about": () => <AboutPage />,
-  "/services": () => <ServicesPage />,
   "/oven": () => <OvenPage />,
   "/general": () => <GeneralPage />,
   "/commercial": () => <CommercialPage />,

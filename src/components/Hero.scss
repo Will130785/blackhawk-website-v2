@@ -14,7 +14,7 @@
     align-items: center;
 
     &__header {
-        padding-top: 18rem;
+        padding-top: 15rem;
         width: 100%;
         height: 100%;
         display: flex;
@@ -23,10 +23,19 @@
         align-items: center;
         text-align: center;
 
+        @media only screen and (max-width: 960px) {
+            padding-top: 18rem;
+        }
+
+        @media only screen and (max-width: 600px) {
+            padding-top: 20rem;
+        }
+
         h1 {
             font-size: 12rem;
             color: #fff;
             font-family: 'Archivo Black', sans-serif;
+            line-height: 15rem;
 
             @media only screen and (max-width: 960px) {
                 font-size: 10rem;

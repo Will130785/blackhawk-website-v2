@@ -1,0 +1,27 @@
+.oven-price {
+    margin-bottom: 10rem;
+
+    h2 {
+        font-size: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    @media only screen and (max-width: 960px) {
+        margin-top: 10rem;
+    }
+}
+
+.package {
+
+    &__heading {
+        margin-top: 10rem;
+    }
+
+    &__pic {
+        width: 100%;
+
+        @media only screen and (max-width: 960px) {
+            margin-bottom: 10rem;
+        }
+    }
+}

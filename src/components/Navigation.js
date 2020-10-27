@@ -18,11 +18,12 @@ class Navigation extends Component {
                 <Navbar.Collapse id="basic-navbar-nav" collapseOnSelect>
                 <Nav className="navItems">
                     <Nav><A className="a-link" href="/">Home</A></Nav>
-                    <NavDropdown className="navbar-nav" title="Oven Cleaning" id="basic-nav-dropdown">
+                    <Nav><A className="a-link" href="/oven">Oven Cleaning</A></Nav>
+                    {/* <NavDropdown className="navbar-nav" title="Oven Cleaning" id="basic-nav-dropdown">
                         <NavDropdown.Item><A className="a-link" href="/oven">Packages</A></NavDropdown.Item>
                         <NavDropdown.Item><A className="a-link" href="/general">General Cleaning</A></NavDropdown.Item>
-                        {/* <NavDropdown.Item><A className="a-link" href="/commercial">Commercial Cleaning</A></NavDropdown.Item> */}
-                    </NavDropdown>
+                        <NavDropdown.Item><A className="a-link" href="/commercial">Commercial Cleaning</A></NavDropdown.Item>
+                    </NavDropdown> */}
                     <NavDropdown className="navbar-nav" title="End of Tenancy" id="basic-nav-dropdown">
                         <NavDropdown.Item><A className="a-link" href="/general">General</A></NavDropdown.Item>
                         <NavDropdown.Item><A className="a-link" href="/commercial">Commercial</A></NavDropdown.Item>

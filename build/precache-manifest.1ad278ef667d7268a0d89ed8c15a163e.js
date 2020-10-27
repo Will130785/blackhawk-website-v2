@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c66c864a7b6f9d140b79db085b7d668d",
+    "revision": "3972768be2668dc7496a028b16f4d544",
     "url": "/index.html"
   },
   {
-    "revision": "f364e3b788f0dc6c4f2f",
-    "url": "/static/css/2.ae85870d.chunk.css"
+    "revision": "dd97b8f1abda4b9887fb",
+    "url": "/static/css/2.f92835a6.chunk.css"
   },
   {
-    "revision": "a2caeabe235e83bc3190",
-    "url": "/static/css/main.d8115a78.chunk.css"
+    "revision": "7eeda64c67ac2001a501",
+    "url": "/static/css/main.56b61af6.chunk.css"
   },
   {
-    "revision": "f364e3b788f0dc6c4f2f",
-    "url": "/static/js/2.df4d62eb.chunk.js"
+    "revision": "dd97b8f1abda4b9887fb",
+    "url": "/static/js/2.8b7e64c4.chunk.js"
   },
   {
-    "revision": "a19c20645981503f58aa6bf9955c67ee",
-    "url": "/static/js/2.df4d62eb.chunk.js.LICENSE.txt"
+    "revision": "4fbde1ae2a4e32f59b5b4e0227d7c4e0",
+    "url": "/static/js/2.8b7e64c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2caeabe235e83bc3190",
-    "url": "/static/js/main.61c88cea.chunk.js"
+    "revision": "7eeda64c67ac2001a501",
+    "url": "/static/js/main.2a4f22d3.chunk.js"
   },
   {
     "revision": "ef1bbb5f59945fea30a4",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/facebook-round-line-color.7cacca0d.svg"
   },
   {
+    "revision": "23bc6862681562494e8923737b0f633a",
+    "url": "/static/media/family.23bc6862.jpeg"
+  },
+  {
     "revision": "4c2bce4286c24c7d4859bf45e5a588a4",
     "url": "/static/media/instagram-color.4c2bce42.svg"
   },
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a75e53abaa38c4bb615165270c5996b2",
     "url": "/static/media/logo3d.a75e53ab.jpeg"
+  },
+  {
+    "revision": "4687a179b0261a6fdc0bfda4ca6eb719",
+    "url": "/static/media/louis-hansel-shotsoflouis-ktVKZRYUP4Y-unsplash.4687a179.jpg"
   },
   {
     "revision": "58986750d09d4b7f7d5705b6b2ce21ac",
@@ -98,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d8cc7799d3e11a002423252e7420529",
     "url": "/static/media/price.0d8cc779.png"
+  },
+  {
+    "revision": "c3fa2f75bfac06527dd506cfd21d71a2",
+    "url": "/static/media/taha-sas-kSCAjbe0Qrg-unsplash.c3fa2f75.jpg"
   },
   {
     "revision": "c2098e985a1392a953ba793794f157d4",

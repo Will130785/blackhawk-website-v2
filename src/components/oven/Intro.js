@@ -2,41 +2,25 @@ import React, {Component} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import OvenPic1 from "../../img/oven-cleaning/louis-hansel-shotsoflouis-ktVKZRYUP4Y-unsplash.jpg";
 
-class Service extends Component {
+class Intro extends Component {
 
     render() {
 
-        const styles = {
-            containerDiv: {
-                overall: {
-                    padding: "10rem 0 10rem 0"
-                }
-            },
-            title: {
-                heading: {
-                    fontSize: "4rem"
-                }
-            },
-            description: {
-                paragraph: {
-                    fontSize: "2rem"
-                }
-            }
-        }
-
         return (
-            <div style={styles.containerDiv.overall}>
+            <div className="intro">
                 <Container>
                     <Row>
                         <Col lg={true}>
                             <div>
-                                {this.props.left}
+                                <h1><span className="intro__oven">OVEN</span> <span className="intro__cleaning">CLEANING</span></h1>
+                                <h2>Take a look at our oven cleaning services</h2>
                             </div>
                         </Col>
                         <Col lg={true}>
                             <div>
-                                {this.props.right}
+                                <img className="intro__pic" src={OvenPic1} alt="Oven" />
                             </div>
                         </Col>
                     </Row>
@@ -46,4 +30,4 @@ class Service extends Component {
     }
 }
 
-export default Service;
+export default Intro;

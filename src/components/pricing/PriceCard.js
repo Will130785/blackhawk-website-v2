@@ -8,7 +8,7 @@ class PriceCard extends Component {
     render() {
 
         return (
-            <Card style={{ width: '100%' }}>
+            <Card className="priceCard__card">
                 {/* <Card.Img variant="top" src="holder.js/100px180?text=Image cap" /> */}
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
