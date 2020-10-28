@@ -4,7 +4,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SiteButton from "../components/SiteButton";
-import Price from "../img/home/price.png";
 import PriceLogo from "./PriceLogo";
 
 
