@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Logo3d from "../../img/logo/logo-trans2.png";
-import PriceLogo from "../PriceLogo";
 
 class Intro extends Component {
 
