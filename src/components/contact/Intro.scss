@@ -1,0 +1,39 @@
+.contact-intro {
+    padding: 13rem 0 13rem 0;
+    background-image: linear-gradient(to right bottom,
+    rgba(40, 54, 67, 1),
+     rgba(14, 24, 33, 0.8)),
+     url("../../img/areas/benjamin-davies-Oja2ty_9ZLM-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &__oven {
+        color: #95d6fe;
+    }
+
+    h1 {
+        font-size: 8rem;
+        color: #fff;
+        font-family: 'Archivo Black', sans-serif;
+        margin-bottom: 2rem;
+
+        @media only screen and (max-width: 960px) {
+            font-size: 6rem;
+        }
+    }
+
+    h2 {
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    &__pic {
+        width: 50%;
+
+        @media only screen and (max-width: 960px) {
+            margin-top: 5rem;
+        }
+    }
+}

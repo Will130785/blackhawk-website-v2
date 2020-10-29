@@ -15,6 +15,7 @@ import GalleryPage from "./pages/GalleryPage";
 import AreasPage from "./pages/AreasPage";
 import FamilyPage from "./pages/FamilyPage";
 import PricePage from "./pages/PricePage";
+import FranchisePage from "./pages/FranchisePage";
 import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
 import Footer from "./components/Footer";
@@ -29,6 +30,7 @@ const routes = {
   "/areas": () => <AreasPage />,
   "/family": () => <FamilyPage />,
   "/pricing": () => <PricePage />,
+  "/franchise": () => <FranchisePage />,
   "/contact": () => <ContactPage />,
   "/covid": () => <CovidPage />
 }

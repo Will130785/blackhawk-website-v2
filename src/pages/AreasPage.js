@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Intro from "../components/areas/Intro";
 
 class AreasPage extends Component {
 
@@ -6,7 +7,7 @@ class AreasPage extends Component {
 
         return (
             <div>
-                
+                <Intro />
             </div>
         )
     }

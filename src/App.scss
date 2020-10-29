@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Teko:wght@300;400;500;600;700&display=swap');
 
-@import "components/contact/contact";
+@import "components/areas/Intro";
+
+@import "components/contact/Contact";
+@import "components/contact/Intro";
 
 @import "components/Footer";
 @import "components/PriceLogo";
@@ -10,6 +13,7 @@
 @import "components/family/Intro";
 
 @import "components/franchise/Franchise";
+@import "components/franchise/Intro";
 
 @import "components/home/About";
 @import "components/home/Family";
@@ -54,6 +58,14 @@ html {
 
   @media only screen and (max-width: 400px) {
     font-size: 30%;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 25%;
+  }
+
+  @media only screen and (max-width: 300px) {
+    font-size: 20%;
   }
 }
 

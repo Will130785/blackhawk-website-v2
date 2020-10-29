@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e82a5a6a.chunk.css",
-    "main.js": "/static/js/main.a4821fee.chunk.js",
-    "main.js.map": "/static/js/main.a4821fee.chunk.js.map",
+    "main.css": "/static/css/main.c6ee4c53.chunk.css",
+    "main.js": "/static/js/main.a2584b11.chunk.js",
+    "main.js.map": "/static/js/main.a2584b11.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f49cf2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f49cf2d.js.map",
     "static/css/2.f92835a6.chunk.css": "/static/css/2.f92835a6.chunk.css",
-    "static/js/2.358ba965.chunk.js": "/static/js/2.358ba965.chunk.js",
-    "static/js/2.358ba965.chunk.js.map": "/static/js/2.358ba965.chunk.js.map",
+    "static/js/2.3d86bfcc.chunk.js": "/static/js/2.3d86bfcc.chunk.js",
+    "static/js/2.3d86bfcc.chunk.js.map": "/static/js/2.3d86bfcc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b1223aa5868e4bfda6e188ebecc0566.js": "/precache-manifest.0b1223aa5868e4bfda6e188ebecc0566.js",
+    "precache-manifest.c980c4b0f739f33473c914514b35fe57.js": "/precache-manifest.c980c4b0f739f33473c914514b35fe57.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f92835a6.chunk.css.map": "/static/css/2.f92835a6.chunk.css.map",
-    "static/css/main.e82a5a6a.chunk.css.map": "/static/css/main.e82a5a6a.chunk.css.map",
-    "static/js/2.358ba965.chunk.js.LICENSE.txt": "/static/js/2.358ba965.chunk.js.LICENSE.txt",
+    "static/css/main.c6ee4c53.chunk.css.map": "/static/css/main.c6ee4c53.chunk.css.map",
+    "static/js/2.3d86bfcc.chunk.js.LICENSE.txt": "/static/js/2.3d86bfcc.chunk.js.LICENSE.txt",
     "static/media/TBRBadgetransbackground.png": "/static/media/TBRBadgetransbackground.0f07497d.png",
     "static/media/Yell_RGB.png": "/static/media/Yell_RGB.a6a58bb3.png",
     "static/media/bark2019.png": "/static/media/bark2019.af5e9bf3.png",
+    "static/media/App.scss": "/static/media/taha-sas-kSCAjbe0Qrg-unsplash.c3fa2f75.jpg",
     "static/media/companylogo1.png": "/static/media/companylogo1.f9299be0.png",
     "static/media/companylogo3.png": "/static/media/companylogo3.7a0d84d8.png",
     "static/media/companylogo4.png": "/static/media/companylogo4.573bdbc9.png",
@@ -31,7 +32,6 @@
     "static/media/logo-trans2.png": "/static/media/logo-trans2.707c5416.png",
     "static/media/logo3d.jpeg": "/static/media/logo3d.a75e53ab.jpeg",
     "static/media/louis-hansel-shotsoflouis-ktVKZRYUP4Y-unsplash.jpg": "/static/media/louis-hansel-shotsoflouis-ktVKZRYUP4Y-unsplash.4687a179.jpg",
-    "static/media/App.scss": "/static/media/taha-sas-kSCAjbe0Qrg-unsplash.c3fa2f75.jpg",
     "static/media/oven1.jpeg": "/static/media/oven1.72851441.jpeg",
     "static/media/oven2.jpeg": "/static/media/oven2.95dd9462.jpeg",
     "static/media/price.png": "/static/media/price.0d8cc779.png",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.9f49cf2d.js",
     "static/css/2.f92835a6.chunk.css",
-    "static/js/2.358ba965.chunk.js",
-    "static/css/main.e82a5a6a.chunk.css",
-    "static/js/main.a4821fee.chunk.js"
+    "static/js/2.3d86bfcc.chunk.js",
+    "static/css/main.c6ee4c53.chunk.css",
+    "static/js/main.a2584b11.chunk.js"
   ]
 }

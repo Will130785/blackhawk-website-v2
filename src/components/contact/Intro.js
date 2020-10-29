@@ -9,18 +9,20 @@ class Intro extends Component {
     render() {
 
         return (
-            <div className="oven-intro">
+            <div className="contact-intro">
                 <Container>
                     <Row>
-                    <Col lg={true}>
+                    {/* <Col lg={true}>
                             <div>
-                                <img className="oven-intro__pic" src={Logo3d} alt="3d Logo" />
+                                <img className="area-intro__pic" src={Logo3d} alt="3d Logo" />
                             </div>
-                        </Col>
+                        </Col> */}
                         <Col lg={true}>
                             <div>
-                                <h1><span className="oven-intro__oven">BLACK</span><span className="oven-intro__cleaning">HAWK</span> <span className="oven-intro__oven">FAMILY</span></h1>
-                                <h2>These are companies that we are proud to consider part of the Blackhawk family and highly recommend</h2>
+                                <img className="contact-intro__pic" src={Logo3d} alt="3d Logo" />
+                            </div>
+                            <div>
+                                <h2>Get in contact with us today</h2>
                             </div>
                         </Col>
                     </Row>
