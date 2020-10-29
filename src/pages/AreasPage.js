@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Hero from "../components/Hero";
 
 class AreasPage extends Component {
 
@@ -7,7 +6,7 @@ class AreasPage extends Component {
 
         return (
             <div>
-                <Hero />
+                
             </div>
         )
     }

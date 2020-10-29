@@ -59,21 +59,21 @@ class OvenPrice extends Component {
                         </Col>
                         <Col lg={true}>
                                 <div className="priceCard-div">
-                                    <h2>Yasmin17</h2>
+                                <h2>Aaliyah14</h2>
                                     <p>Save £10 by taking advantage of this package</p>
                                     <ul className="priceCard__items">
-                                        <li>Double Oven, Hob ( 4 ring gas ) and small extractor - £75</li>
+                                        <li>Single Oven, Hob ( 4 ring gas ) and Small extractor - £65</li>
                                         <li>Additional Rings - £1.50 each</li>
                                         <li>Large Extractor - £5 extra</li>
                                     </ul>
                                 </div>
                             </Col>
-                            <Col lg={true}>
+                        <Col lg={true}>
                                 <div className="priceCard-div">
-                                <h2>Aaliyah14</h2>
+                                    <h2>Yasmin17</h2>
                                     <p>Save £10 by taking advantage of this package</p>
                                     <ul className="priceCard__items">
-                                        <li>Single Oven, Hob ( 4 ring gas ) and Small extractor - £65</li>
+                                        <li>Double Oven, Hob ( 4 ring gas ) and small extractor - £75</li>
                                         <li>Additional Rings - £1.50 each</li>
                                         <li>Large Extractor - £5 extra</li>
                                     </ul>

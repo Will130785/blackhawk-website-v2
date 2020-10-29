@@ -1,12 +1,10 @@
 import React, {Component} from "react";
-import Hero from "../components/Hero";
 
 class AboutPage extends Component {
 
     render() {
         return (
             <div>
-                <Hero />
                 <div style={{padding: "5rem"}}>
                     <p style={{fontSize: "2rem"}}>Almost every day, we see countless of ads and websites of people and organizations providing various services and products online. Everybody's aim is to impress the customer. But to win someone's trust is not such a simple task, is it? This is why at blackhawk oven cleaning and property care  we have got a separate section, explaining why we are the right choice for you! Here is a list of the advantages that you get, when you choose us:</p>
                     <ul style={{fontSize: "2rem"}}>

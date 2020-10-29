@@ -1,13 +1,13 @@
 import React, {Component} from "react";
-import Hero from "../components/Hero";
 import Companies from "../components/family/Companies";
+import Intro from "../components/family/Intro";
 
 class FamilyPage extends Component {
 
     render() {
         return (
             <div>
-                <Hero />
+                <Intro />
                 <Companies />
             </div>
         )

@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Hero from "../components/Hero";
 import ContactForm from "../components/contact/ContactForm";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -19,7 +18,6 @@ class ContactPage extends Component {
 
         return (
             <div>
-                <Hero />
                 <div style={styles.containerDiv.overall}>
                 <Container>
                     <Row>

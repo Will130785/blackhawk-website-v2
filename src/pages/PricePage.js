@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Hero from "../components/Hero";
 import PriceCard from "../components/pricing/PriceCard";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -17,7 +16,6 @@ class PricePage extends Component {
         }
         return (
             <div>
-                <Hero />
                 <div style={styles.containerDiv.overall}>
                 <Container>
                         <Row className="priceCard-row">

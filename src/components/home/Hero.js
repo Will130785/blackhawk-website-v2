@@ -3,8 +3,8 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SiteButton from "../components/SiteButton";
-import PriceLogo from "./PriceLogo";
+import SiteButton from "../SiteButton";
+import PriceLogo from "../PriceLogo";
 
 
 class Hero extends Component {

@@ -13,37 +13,37 @@ class Companies extends Component {
 
     render() {
 
-        const styles = {
-            containerDiv: {
-                overall: {
-                    padding: "10rem 0 10rem 0",
-                    backgroundColor: "#fff"
-                }
-            },
-            images: {
-                picture: {
-                    width: "100%"
-                }
-            }
-        }
+        // const styles = {
+        //     containerDiv: {
+        //         overall: {
+        //             padding: "10rem 0 10rem 0",
+        //             backgroundColor: "#fff"
+        //         }
+        //     },
+        //     images: {
+        //         picture: {
+        //             width: "100%"
+        //         }
+        //     }
+        // }
 
         return (
-            <div style={styles.containerDiv.overall}>
+            <div className="companies">
                 <Container>
                     <Row>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo1} alt="Logo" />
+                                <img className="companies__pic" src={Logo1} alt="Logo" />
                             </div>
                         </Col>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo7} alt="Logo" />
+                                <img className="companies__pic" src={Logo7} alt="Logo" />
                             </div>
                         </Col>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo3} alt="Logo" />
+                                <img className="companies__pic" src={Logo3} alt="Logo" />
                             </div>
                         </Col>
                     </Row>
@@ -51,17 +51,17 @@ class Companies extends Component {
                     <Row>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo4} alt="Logo" />
+                                <img className="companies__pic" src={Logo4} alt="Logo" />
                             </div>
                         </Col>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo5} alt="Logo" />
+                                <img className="companies__pic" src={Logo5} alt="Logo" />
                             </div>
                         </Col>
                         <Col>
                             <div>
-                                <img style={styles.images.picture} src={Logo6} alt="Logo" />
+                                <img className="companies__pic" src={Logo6} alt="Logo" />
                             </div>
                         </Col>
                     </Row>
