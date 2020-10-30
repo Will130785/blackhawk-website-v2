@@ -14,12 +14,10 @@ class Contact extends Component {
                 <Container>
                     <Row>
                         <Col lg={true}>
-                            <div className="contactCard">
-                                <ContactCard />
-                            </div>
+                            <ContactForm />
                         </Col>
                         <Col lg={true}>
-                            <ContactForm />
+                            <ContactCard />
                         </Col>
                     </Row>
                 </Container>

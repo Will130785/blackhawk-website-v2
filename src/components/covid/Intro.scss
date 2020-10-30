@@ -1,9 +1,9 @@
-.intro {
-    padding: 25rem 0 20rem 0;
+.covid-intro {
+    padding: 30rem 0 25rem 0;
     background-image: linear-gradient(to right bottom,
     rgba(40, 54, 67, 1),
      rgba(14, 24, 33, 0.8)),
-     url("../../img/oven-cleaning/taha-sas-kSCAjbe0Qrg-unsplash.jpg");
+     url("../../img/covid/cdc-k0KRNtqcjfw-unsplash.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -26,14 +26,16 @@
     }
 
     h2 {
-        font-size: 4rem;
+        font-size: 8rem;
+        color: #fff;
+    }
+
+    p {
+        font-size: 3rem;
     }
 
     &__pic {
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        width: 100%;
+        width: 50%;
 
         @media only screen and (max-width: 960px) {
             margin-top: 5rem;
