@@ -12,6 +12,7 @@
 @import "components/covid/Intro";
 
 @import "components/Footer";
+@import "components/Modal";
 @import "components/PriceLogo";
 
 @import "components/family/Companies";
@@ -35,6 +36,11 @@
 @import "components/SiteButton";
 
 @import "components/pricing/PriceCard";
+
+@import "components/tenancy/Desc";
+@import "components/tenancy/Intro";
+@import "components/tenancy/PriceCard";
+@import "components/tenancy/Pricing";
 //GLOBAL RESET
 * {
   margin: 0;

@@ -9,6 +9,13 @@ class ContactCard extends Component {
                 <h2>Contact Details</h2>
                 <h3>Get in contact with us using the form or any of the details below</h3>
                 <div class="contact-card__details1">
+                    <p>Blackhawk Oven Cleaning & Property Care</p>
+                    <p>Sunnyhurst Close</p>
+                    <p>Sutton</p>
+                    <p>Surrey</p>
+                    <p>SM1 2PT</p>
+                </div>
+                <div class="contact-card__details1">
                     <p>Meadows Walk</p>
                     <p>Walton on the Hill</p>
                     <p>Surrey</p>
@@ -20,6 +27,7 @@ class ContactCard extends Component {
                     <p>Leatherhead</p>
                     <p>KT22 8ST</p>
                     <p>0345 257 8322</p>
+                    <p>enquiries@blackhawkovencleaning.co.uk</p>
                 </div>
             </div>
             

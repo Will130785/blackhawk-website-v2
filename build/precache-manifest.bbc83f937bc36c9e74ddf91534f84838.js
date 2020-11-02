@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "804dd8a1da986486261c974619ba5eb4",
+    "revision": "5d2fc59ff07ebfa526eb05c1203fa5e6",
     "url": "/index.html"
   },
   {
-    "revision": "101617af65c213f741e2",
+    "revision": "350926ba79e7d957265e",
     "url": "/static/css/2.ae85870d.chunk.css"
   },
   {
-    "revision": "41a6ef9dceaec502b3e6",
-    "url": "/static/css/main.dfd8cc9a.chunk.css"
+    "revision": "b7cb8f8315a729c43249",
+    "url": "/static/css/main.3c0a4dfc.chunk.css"
   },
   {
-    "revision": "101617af65c213f741e2",
-    "url": "/static/js/2.17abbe2b.chunk.js"
+    "revision": "350926ba79e7d957265e",
+    "url": "/static/js/2.6adc852e.chunk.js"
   },
   {
     "revision": "4fbde1ae2a4e32f59b5b4e0227d7c4e0",
-    "url": "/static/js/2.17abbe2b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6adc852e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41a6ef9dceaec502b3e6",
-    "url": "/static/js/main.213a76af.chunk.js"
+    "revision": "b7cb8f8315a729c43249",
+    "url": "/static/js/main.8cc6ddca.chunk.js"
   },
   {
     "revision": "ef1bbb5f59945fea30a4",
@@ -76,12 +76,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/covid.cc92d9df.jpg"
   },
   {
+    "revision": "cb331afa877ee4c28cba8cc69c5e2b52",
+    "url": "/static/media/deborah-cortelazzi-gREquCUXQLI-unsplash.cb331afa.jpg"
+  },
+  {
     "revision": "7cacca0d6f0f1323bff5a79288bafc52",
     "url": "/static/media/facebook-round-line-color.7cacca0d.svg"
   },
   {
     "revision": "23bc6862681562494e8923737b0f633a",
     "url": "/static/media/family.23bc6862.jpeg"
+  },
+  {
+    "revision": "4f1b789ce3b6c0203a0de09266dcfd82",
+    "url": "/static/media/flats.4f1b789c.jpg"
+  },
+  {
+    "revision": "db72624852bd7f5bd12f17e7df448a98",
+    "url": "/static/media/houses.db726248.jpg"
   },
   {
     "revision": "4c2bce4286c24c7d4859bf45e5a588a4",

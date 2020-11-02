@@ -1,0 +1,49 @@
+.modal {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    // padding: 15rem 10rem;
+
+    &-backdrop {
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-dialog {
+        max-width: 80% !important;
+
+        @media only screen and (max-width: 700px) {
+            max-width: 100% !important;
+            font-size: 4rem;
+        }
+        
+    }
+
+    &-content {
+        // width: 100%;
+        background-image: linear-gradient(to right bottom,
+    rgba(40, 54, 67, 1),
+     rgba(14, 24, 33, 0.8)),
+     url("../img/covid/cdc-k0KRNtqcjfw-unsplash.jpg");
+     background-size: cover;
+     background-position: center;
+     padding: 5rem;
+     border-radius: 1rem !important;
+    }
+
+    &-title {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        color: #95d6fe;
+
+    }
+}
+
+.close {
+    font-size: 5rem !important;
+    color: #fff !important;
+}

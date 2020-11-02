@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfd8cc9a.chunk.css",
-    "main.js": "/static/js/main.213a76af.chunk.js",
-    "main.js.map": "/static/js/main.213a76af.chunk.js.map",
+    "main.css": "/static/css/main.3c0a4dfc.chunk.css",
+    "main.js": "/static/js/main.8cc6ddca.chunk.js",
+    "main.js.map": "/static/js/main.8cc6ddca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f49cf2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f49cf2d.js.map",
     "static/css/2.ae85870d.chunk.css": "/static/css/2.ae85870d.chunk.css",
-    "static/js/2.17abbe2b.chunk.js": "/static/js/2.17abbe2b.chunk.js",
-    "static/js/2.17abbe2b.chunk.js.map": "/static/js/2.17abbe2b.chunk.js.map",
+    "static/js/2.6adc852e.chunk.js": "/static/js/2.6adc852e.chunk.js",
+    "static/js/2.6adc852e.chunk.js.map": "/static/js/2.6adc852e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.85429f55ca9c04d98b648f176b1da4c6.js": "/precache-manifest.85429f55ca9c04d98b648f176b1da4c6.js",
+    "precache-manifest.bbc83f937bc36c9e74ddf91534f84838.js": "/precache-manifest.bbc83f937bc36c9e74ddf91534f84838.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ae85870d.chunk.css.map": "/static/css/2.ae85870d.chunk.css.map",
-    "static/css/main.dfd8cc9a.chunk.css.map": "/static/css/main.dfd8cc9a.chunk.css.map",
-    "static/js/2.17abbe2b.chunk.js.LICENSE.txt": "/static/js/2.17abbe2b.chunk.js.LICENSE.txt",
+    "static/css/main.3c0a4dfc.chunk.css.map": "/static/css/main.3c0a4dfc.chunk.css.map",
+    "static/js/2.6adc852e.chunk.js.LICENSE.txt": "/static/js/2.6adc852e.chunk.js.LICENSE.txt",
     "static/media/TBRBadgetransbackground.png": "/static/media/TBRBadgetransbackground.0f07497d.png",
     "static/media/Yell_RGB.png": "/static/media/Yell_RGB.a6a58bb3.png",
     "static/media/bark2019.png": "/static/media/bark2019.af5e9bf3.png",
@@ -27,6 +27,8 @@
     "static/media/covid.jpg": "/static/media/covid.cc92d9df.jpg",
     "static/media/facebook-round-line-color.svg": "/static/media/facebook-round-line-color.7cacca0d.svg",
     "static/media/family.jpeg": "/static/media/family.23bc6862.jpeg",
+    "static/media/flats.jpg": "/static/media/flats.4f1b789c.jpg",
+    "static/media/houses.jpg": "/static/media/houses.db726248.jpg",
     "static/media/instagram-color.svg": "/static/media/instagram-color.4c2bce42.svg",
     "static/media/logo-small.jpg": "/static/media/logo-small.916c81a3.jpg",
     "static/media/logo-trans2.png": "/static/media/logo-trans2.707c5416.png",
@@ -41,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.9f49cf2d.js",
     "static/css/2.ae85870d.chunk.css",
-    "static/js/2.17abbe2b.chunk.js",
-    "static/css/main.dfd8cc9a.chunk.css",
-    "static/js/main.213a76af.chunk.js"
+    "static/js/2.6adc852e.chunk.js",
+    "static/css/main.3c0a4dfc.chunk.css",
+    "static/js/main.8cc6ddca.chunk.js"
   ]
 }
