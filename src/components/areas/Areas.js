@@ -28,6 +28,7 @@ class Areas extends Component {
                             <div className="areas__col2">
                                 <h2>South West London</h2>
                                 <ul>
+                                    <li>Croydon</li>
                                     <li>Clapham</li>
                                     <li>Balham</li>
                                     <li>Mitcham</li>

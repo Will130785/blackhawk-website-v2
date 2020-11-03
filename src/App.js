@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import 'rsuite/dist/styles/rsuite-default.css';
-import {BrowserRouter as Router} from "react-router-dom";
+// import {BrowserRouter as Router} from "react-router-dom";
 import {useRoutes} from "hookrouter";
 
 import Navigation from "./components/Navigation";
@@ -39,15 +39,13 @@ function App() {
 
     const match = useRoutes(routes)
     return (
-      <Router>
-        <div>
-          <Navigation />
-          <main>
-            {match}
-          </main>
-          <Footer/>
-        </div>
-      </Router>
+          <div>
+            <Navigation />
+           <main>
+              {match}
+           </main>
+            <Footer/>
+          </div>
     )
   }
 

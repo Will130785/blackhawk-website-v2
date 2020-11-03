@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import flatsPic from "../../img/tenancy/flats.jpg";
 import housePic from "../../img/tenancy/houses.jpg";
+import officePic from "../../img/tenancy/sean-pollock-PhYq704ffdA-unsplash.jpg"
 
 class Pricing extends Component {
 
@@ -14,7 +15,7 @@ class Pricing extends Component {
         return (
             <div className="pricing">
                 <Container>
-                    <h2>Our Prices</h2>
+                    <h2 className="pricing__title">Our Prices</h2>
                     <div className="pricing__cards">
                         <Row>
                             <Col lg={true}>
@@ -84,7 +85,7 @@ class Pricing extends Component {
                         </Row>
                         <Row>
                             <Col lg={true}>
-                            <PriceCard picture={flatsPic} description="Offices Request Quote" price="5min | Free Quote"/>
+                            <PriceCard picture={officePic} description="Offices Request Quote" price="5min | Free Quote"/>
                             </Col>
                             <Col lg={true}>
                             <PriceCard picture={flatsPic} description="1 Bedroom Flat - Spring Clean" price="2hr | £150"/>

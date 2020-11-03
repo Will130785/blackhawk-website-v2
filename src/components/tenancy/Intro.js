@@ -22,6 +22,7 @@ class Intro extends Component {
                             </div> */}
                             <div>
                                 <h2>End of Tenancy Cleaning</h2>
+                                <p>Read about our cleaning services below and check out our prices</p>
                             </div>
                         </Col>
                     </Row>
