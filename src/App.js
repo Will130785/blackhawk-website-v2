@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import 'rsuite/dist/styles/rsuite-default.css';
-// import {BrowserRouter as Router} from "react-router-dom";
 import {useRoutes} from "hookrouter";
 
 import Navigation from "./components/Navigation";
@@ -18,6 +16,7 @@ import PricePage from "./pages/PricePage";
 import FranchisePage from "./pages/FranchisePage";
 import ContactPage from "./pages/ContactPage";
 import CovidPage from "./pages/CovidPage";
+import TestimonialPage from "./pages/TestimonialPage";
 import Footer from "./components/Footer";
 
 const routes = {
@@ -32,7 +31,8 @@ const routes = {
   "/pricing": () => <PricePage />,
   "/franchise": () => <FranchisePage />,
   "/contact": () => <ContactPage />,
-  "/covid": () => <CovidPage />
+  "/covid": () => <CovidPage />,
+  "/testimonial": () => <TestimonialPage />
 }
 
 function App() {

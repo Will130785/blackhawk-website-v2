@@ -4,6 +4,10 @@ import Areas from "../components/areas/Areas";
 
 class AreasPage extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
 
         return (

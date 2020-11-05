@@ -5,6 +5,9 @@ import About from "../components/home/About";
 import Reputation from "../components/home/Reputation";
 
 class HomePage extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
 
     render() {
         return (

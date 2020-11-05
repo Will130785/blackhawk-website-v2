@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import SiteButtonSmall from "../SiteButtonSmall";
 
 
 class PriceCard extends Component {
@@ -16,7 +15,6 @@ class PriceCard extends Component {
                 </div>
                 <div className="price-card__footer">
                     <p>{this.props.price}</p>
-                    <SiteButtonSmall location="/contact" content="Get quote"/>
                 </div>          
             </div>
         )

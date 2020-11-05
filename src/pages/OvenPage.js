@@ -6,6 +6,10 @@ import OvenPrice from "../components/oven/OvenPrice";
 
 class OvenPage extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div>

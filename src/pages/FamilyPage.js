@@ -4,6 +4,10 @@ import Intro from "../components/family/Intro";
 
 class FamilyPage extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div>

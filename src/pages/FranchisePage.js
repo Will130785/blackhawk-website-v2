@@ -4,6 +4,10 @@ import Franchise from "../components/franchise/Franchise";
 
 class FranchisePage extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
 
         return (

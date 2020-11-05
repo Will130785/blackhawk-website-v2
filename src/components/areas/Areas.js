@@ -33,6 +33,7 @@ class Areas extends Component {
                                     <li>Balham</li>
                                     <li>Mitcham</li>
                                     <li>Streatham</li>
+                                    <li>Wimbledon</li>
                                 </ul>
                             </div>
                         </Col>
