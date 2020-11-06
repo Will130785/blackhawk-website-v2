@@ -38,13 +38,13 @@ const routes = {
 function App() {
 
     // useRedirect("/", "/");
-    useRedirect("/general", "/general");
-    useRedirect("/oven", "/oven");
-    useRedirect("/areas", "/areas");
-    useRedirect("/family", "/family");
-    useRedirect("/franchise", "/franchise");
-    useRedirect("/contact", "/contact");
-    useRedirect("/testimonial", "/testimonial");
+    useRedirect("/general", "#/general");
+    useRedirect("/oven", "#/oven");
+    useRedirect("/areas", "#/areas");
+    useRedirect("/family", "#/family");
+    useRedirect("/franchise", "#/franchise");
+    useRedirect("/contact", "#/contact");
+    useRedirect("/testimonial", "#/testimonial");
     const match = useRoutes(routes)
     return (
           <div>
