@@ -112,15 +112,16 @@
 
   .nav-links {
       text-align: center;
-      padding: 2rem 0;
+      padding: 3rem 2rem;
       width: 100%;
       display: table;
-      font-size: 3rem;
+      font-size: 4rem;
+      transition: all .3s;
   }
 
   .nav-links:hover {
-      background-color: #000;
-      border-radius: 0;
+      background-color: #95d6fe;
+      border-radius: 2rem;
   }
 
   .menu-icon {

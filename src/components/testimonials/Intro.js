@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SiteButton from "../SiteButton";
+import PriceLogo from "../PriceLogo";
 
 class Intro extends Component {
 
@@ -25,6 +26,7 @@ class Intro extends Component {
                                 <h2>Testimonials</h2>
                                 <p>See what some of our customers have to say about our services</p>
                                 <SiteButton location="/contact" content="Get in contact" />
+                                <PriceLogo />
                             </div>
                         </Col>
                     </Row>
