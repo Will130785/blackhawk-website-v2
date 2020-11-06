@@ -13,12 +13,9 @@ class OvenPage extends Component {
     }
 
     componentDidMount() {
-        window.scrollTo(0, 0)
-    }
-
-    componentDidMount() {
+        window.scrollTo(0, 0);
         window.addEventListener('onbeforeunload', this.onUnload);
-     }
+    }
  
      componentWillUnmount() {
          window.removeEventListener('onbeforeunload', this.onUnload);
