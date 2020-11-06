@@ -42,7 +42,7 @@ function App() {
           <div>
             <Navigation />
            <main>
-              {match || <HomePage />}
+              {match ? match : <HomePage />}
            </main>
             <Footer/>
           </div>
