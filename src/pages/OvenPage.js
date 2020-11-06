@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {useRoutes, navigate} from "hookrouter";
 import Intro from "../components/oven/Intro";
 import Why from "../components/oven/Why";
 import What from "../components/oven/What";
