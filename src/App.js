@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useRoutes, useRedirect} from "hookrouter";
+import {useRoutes} from "hookrouter";
 
 import Navigation from "./components/Navigation";
 import HomePage from "./pages/HomePage";
@@ -37,20 +37,12 @@ const routes = {
 
 function App() {
 
-    // useRedirect("/", "/");
-    useRedirect("/general", "#/general");
-    useRedirect("/oven", "#/oven");
-    useRedirect("/areas", "#/areas");
-    useRedirect("/family", "#/family");
-    useRedirect("/franchise", "#/franchise");
-    useRedirect("/contact", "#/contact");
-    useRedirect("/testimonial", "#/testimonial");
     const match = useRoutes(routes)
     return (
           <div>
             <Navigation />
            <main>
-              {match}
+              {match || <HomePage />}
            </main>
             <Footer/>
           </div>
