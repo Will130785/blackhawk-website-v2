@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useRoutes} from "hookrouter";
+import {useRoutes, navigate} from "hookrouter";
 
 import Navigation from "./components/Navigation";
 import HomePage from "./pages/HomePage";
@@ -36,6 +36,10 @@ const routes = {
 }
 
 function App() {
+  useEffect(() => {
+    navigate("/");
+  }, [])
+
 
     const match = useRoutes(routes)
     return (
