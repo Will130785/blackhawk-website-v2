@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TestimonialCard from "./TestimonialCard";
+import SiteButton from "../SiteButton";
 
 class Testimonial extends Component {
 
@@ -69,6 +70,13 @@ class Testimonial extends Component {
                         <Col lg={true}>
                             <div className="testimonials__card">
                                 <TestimonialCard test="Arrived on time and did an excellent Job. I have used select oven cleaning and mr clean oven and they did a good enough job but this lot are a level up I would say. I will Deffinatley be recommending to family and friends." name="Chris Martin" />
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <div className="testimonials__button">
+                                <SiteButton location="/contact" content="Get in contact" />
                             </div>
                         </Col>
                     </Row>

@@ -8,24 +8,11 @@ import Logo4 from "../../img/family/companylogo4.png";
 import Logo5 from "../../img/family/companylogo5.png";
 import Logo6 from "../../img/family/companylogo6.png";
 import Logo7 from "../../img/family/companylogo7.png";
+import Logo8 from "../../img/family/familyimage8.jpeg";
 
 class Companies extends Component {
 
     render() {
-
-        // const styles = {
-        //     containerDiv: {
-        //         overall: {
-        //             padding: "10rem 0 10rem 0",
-        //             backgroundColor: "#fff"
-        //         }
-        //     },
-        //     images: {
-        //         picture: {
-        //             width: "100%"
-        //         }
-        //     }
-        // }
 
         return (
             <div className="companies">
@@ -63,6 +50,20 @@ class Companies extends Component {
                             <div>
                                 <img className="companies__pic" src={Logo6} alt="Logo" />
                             </div>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col>
+                            
+                        </Col>
+                        <Col>
+                            <div>
+                                <img className="companies__pic" src={Logo8} alt="Logo" />
+                            </div>
+                        </Col>
+                        <Col>
+                            
                         </Col>
                     </Row>
                 </Container>

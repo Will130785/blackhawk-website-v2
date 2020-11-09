@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1242c109d2a644784cf12388be3b905",
+    "revision": "4b8c12cd0ad2e9488191404c5c3eb42c",
     "url": "/index.html"
   },
   {
-    "revision": "cf535d1210ca57eabf4f",
+    "revision": "01ee1fcdeda6f799dd1a",
     "url": "/static/css/2.ae85870d.chunk.css"
   },
   {
-    "revision": "fa7a3f5f11e41090aa78",
-    "url": "/static/css/main.54a2090a.chunk.css"
+    "revision": "db569b244d6b7feb64d8",
+    "url": "/static/css/main.f45e42ad.chunk.css"
   },
   {
-    "revision": "cf535d1210ca57eabf4f",
-    "url": "/static/js/2.d6a1ce43.chunk.js"
+    "revision": "01ee1fcdeda6f799dd1a",
+    "url": "/static/js/2.0ace2d83.chunk.js"
   },
   {
     "revision": "be9831207da3d10befcd05d1ebb51a3a",
-    "url": "/static/js/2.d6a1ce43.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0ace2d83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa7a3f5f11e41090aa78",
-    "url": "/static/js/main.0252ab85.chunk.js"
+    "revision": "db569b244d6b7feb64d8",
+    "url": "/static/js/main.a258e1cf.chunk.js"
   },
   {
     "revision": "ef1bbb5f59945fea30a4",
@@ -72,10 +72,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/companylogo7.2abcd19a.png"
   },
   {
-    "revision": "cc92d9df870117fa92a2f448cc2c495e",
-    "url": "/static/media/covid.cc92d9df.jpg"
-  },
-  {
     "revision": "cb331afa877ee4c28cba8cc69c5e2b52",
     "url": "/static/media/deborah-cortelazzi-gREquCUXQLI-unsplash.cb331afa.jpg"
   },
@@ -86,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "23bc6862681562494e8923737b0f633a",
     "url": "/static/media/family.23bc6862.jpeg"
+  },
+  {
+    "revision": "2b8a52f0970ab9b26cde9b652902786f",
+    "url": "/static/media/familyimage8.2b8a52f0.jpeg"
   },
   {
     "revision": "4f1b789ce3b6c0203a0de09266dcfd82",
@@ -120,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/naomi-hebert-MP0bgaS_d1c-unsplash.58986750.jpg"
   },
   {
+    "revision": "b661f3545a4a1c6e05eccf4d61051951",
+    "url": "/static/media/orlova-maria-oMTlhdFUhdI-unsplash.b661f354.jpg"
+  },
+  {
     "revision": "72851441c04bc70ea3455961919e6c4a",
     "url": "/static/media/oven1.72851441.jpeg"
   },
@@ -146,5 +150,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed35faa44b13f47c43961d70e89abd33",
     "url": "/static/media/three2019.ed35faa4.png"
+  },
+  {
+    "revision": "fc37befd31b52c37af1e4508069aef23",
+    "url": "/static/media/video.fc37befd.mp4"
   }
 ]);

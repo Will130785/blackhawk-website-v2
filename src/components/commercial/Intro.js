@@ -10,13 +10,21 @@ class Intro extends Component {
     render() {
 
         return (
-            <div className="tenancy-intro">
+            <div className="commercial-intro">
                 <Container>
                     <Row>
-                        <Col lg={true}>
+                    {/* <Col lg={true}>
                             <div>
-                                <h2>End of Tenancy Cleaning</h2>
-                                <p>Read about our cleaning services below and check out our prices</p>
+                                <img className="area-intro__pic" src={Logo3d} alt="3d Logo" />
+                            </div>
+                        </Col> */}
+                        <Col lg={true}>
+                            {/* <div>
+                                <img className="covid-intro__pic" src={CovidPic} alt="3d Logo" />
+                            </div> */}
+                            <div>
+                                <h2>Commercial Cleaning</h2>
+                                <p>Please email us at enquiries@blackhawkovencleaning.co.uk or call us to discuss further. </p>
                                 <SiteButton location="/contact" content="Contact us now" />
                                 <PriceLogo />
                             </div>

@@ -1,8 +1,7 @@
 .modal {
     font-size: 3rem;
-    text-align: center;
+    text-align: left;
     color: #fff;
-    // padding: 15rem 10rem;
 
     &-backdrop {
         align-items: center;
@@ -20,9 +19,8 @@
     }
 
     &-content {
-        // width: 100%;
         background-image: linear-gradient(to right bottom,
-    rgba(40, 54, 67, 1),
+        rgba(40, 54, 67, 1),
      rgba(14, 24, 33, 0.8)),
      url("../img/covid/cdc-k0KRNtqcjfw-unsplash.jpg");
      background-size: cover;

@@ -12,11 +12,6 @@ class Intro extends Component {
             <div className="contact-intro">
                 <Container>
                     <Row>
-                    {/* <Col lg={true}>
-                            <div>
-                                <img className="area-intro__pic" src={Logo3d} alt="3d Logo" />
-                            </div>
-                        </Col> */}
                         <Col lg={true}>
                             <div>
                                 <img className="contact-intro__pic" src={Logo3d} alt="3d Logo" />

@@ -11,11 +11,6 @@ class Desc extends Component {
             <div className="desc">
                 <Container>
                     <Row className="desc__row">
-                        {/* <Col lg={true}>
-                            <div className="desc__img">
-                                <img className="desc__img--pic" src={descPic} alt="3D Logo" />
-                            </div>
-                        </Col> */}
                         <Col lg={true}>
                             <div className="desc__content">
                                 <p>Almost every day, we see countless of ads and websites of people and organizations providing various services and products online. Everybody's aim is to impress the customer. But to win someone's trust is not such a simple task, is it? This is why at blackhawk oven cleaning and property care  we have got a separate section, explaining why we are the right choice for you! Here is a list of the advantages that you get, when you choose us:</p>

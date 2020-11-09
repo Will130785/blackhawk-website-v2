@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import Covid from "../img/covid/covid.jpg";
 
 
   class NavModal extends Component {
@@ -23,19 +22,11 @@ import Covid from "../img/covid/covid.jpg";
   handleShow (){
       this.setState({ show: true });
   };
-  // const [show, setShow] = useState(false);
-
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
 
   render() {
 
     return (
       <>
-        {/* <Button variant="primary" onClick={handleShow}>
-          Launch demo modal
-        </Button> */}
-        <img variant="primary" onClick={this.handleShow} class="covid" src={Covid} alt="Covid Logo" />
   
         <Modal className="modal" show={this.state.show} onHide={this.handleClose}>
           <Modal.Header closeButton>
@@ -56,9 +47,6 @@ import Covid from "../img/covid/covid.jpg";
               <p>Thank you again from everyone at Blackhawk Oven cleaning</p>
           </Modal.Body>
           <Modal.Footer>
-            {/* <Button variant="secondary" onClick={this.handleClose}>
-              Close
-            </Button> */}
             <Button variant="primary" className="site-button" onClick={this.handleClose}>
               I confirm that I accept these terms
             </Button>

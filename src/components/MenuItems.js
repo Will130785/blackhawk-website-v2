@@ -15,6 +15,11 @@ export const MenuItems = [
         cName: "nav-links"
     },
     {
+        title: "Commercial",
+        url: "/commercial",
+        cName: "nav-links"
+    },
+    {
         title: "Blackhawk Family",
         url: "/family",
         cName: "nav-links"

@@ -5,6 +5,7 @@ import Pricing from "../components/tenancy/Pricing";
 
 class GeneralPage extends Component {
 
+    //Ensure page is scrolled to the top when component is rendered
     componentDidMount() {
         window.scrollTo(0, 0)
     }

@@ -4,6 +4,10 @@
 @import "components/areas/Areas";
 @import "components/areas/Intro";
 
+@import "components/commercial/Intro";
+@import "components/commercial/Pub";
+@import "components/commercial/Video";
+
 @import "components/contact/Contact";
 @import "components/contact/ContactCard";
 @import "components/contact/ContactForm";
@@ -35,8 +39,6 @@
 @import "components/Navigation";
 @import "components/SiteButton";
 @import "components/SiteButtonSmall";
-
-@import "components/pricing/PriceCard";
 
 @import "components/tenancy/Desc";
 @import "components/tenancy/Intro";

@@ -4,6 +4,7 @@ import Franchise from "../components/franchise/Franchise";
 
 class FranchisePage extends Component {
 
+    //Ensure page is scrolled to the top when component is rendered
     componentDidMount() {
         window.scrollTo(0, 0)
     }

@@ -6,6 +6,7 @@ import OvenPrice from "../components/oven/OvenPrice";
 
 class OvenPage extends Component {
 
+    //Ensure page is scrolled to the top when component is rendered
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -13,6 +14,7 @@ class OvenPage extends Component {
 
 
     render() {
+
         return (
             <div>
                 <Intro />

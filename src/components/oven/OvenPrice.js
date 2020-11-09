@@ -87,24 +87,3 @@ class OvenPrice extends Component {
 }
 
 export default OvenPrice;
-
-
-// <PriceCard
-//                                         title="Oven Cleaning"
-//                                         intro="Here is a list of our oven cleaning prices" 
-//                                         listItems={["Standard Single Oven 60cm - £45",
-//                                                      "Double Oven (Small door top, Large door bottom) - £55",
-//                                                       "90cm Wide Oven - £50",
-//                                                       "2 Range oven - £65",
-//                                                       "3 Range oven - £85",
-//                                                       "Oven Trays - £4 per tray",
-//                                                       "4 Ring Hob - £15",
-//                                                       "6 Ring Hob -  £18",
-//                                                       "8 Ring Hob - £20",
-//                                                       "Halogen Hobs £10",
-//                                                       "Small Extractor ( including replacement filter) - £15",
-//                                                       "Large Extractor (including replacement filter) - £20",
-//                                                       "Microwaves standard £15-£20"
-//                                                     ]} 
-                    
-//                                     />
