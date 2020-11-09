@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SiteButton from "../SiteButton";
 import PriceLogo from "../PriceLogo";
+import FamilyLogo from "../FamilyLogo";
 
 
 class Hero extends Component {
@@ -24,7 +25,10 @@ class Hero extends Component {
                                 <h2>OVEN CLEANING & PROPERTY CARE</h2>
                                 <p>The future of oven cleaning and property care services! Get in contact now for a free quote</p>
                                 <SiteButton location="/contact" content="Free Quote" />
-                                <PriceLogo align="flex-end"/>
+                                <div className="hero__header--logos">
+                                    <FamilyLogo />
+                                    <PriceLogo />
+                                </div>
                             </div>
                         </Col>
                     </Row>
