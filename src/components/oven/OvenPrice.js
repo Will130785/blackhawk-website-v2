@@ -24,6 +24,7 @@ class OvenPrice extends Component {
                                         <li>90cm Wide Oven - £50</li>
                                         <li>2 Range oven - £65</li>
                                         <li>3 Range oven - £85</li>
+                                        <li>4 Range oven - £95</li>
                                     </ul>
                                 </div>
                         </Col>
