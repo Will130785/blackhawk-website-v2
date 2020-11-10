@@ -16,10 +16,11 @@ class What extends Component {
                         <Col lg={true}>
                             <div className="what__content">
                                 <h2>What we do</h2>
-                                <p>All our employees receive 3 to 4 weeks training and are DBS (Police) checked. They are fully insured to work on the appliances they are </p>
-                                <p>All the dirty removable parts like the oven racks, shelves, trays etc. are removed and placed to soak in our specially fitted cleaning tank.After a few hours they are removed from the cleaning solution and rinsed off with fresh water and dried with amazing results.</p>
-                                <p>Inside your home, our professionally trained technician will work on your appliance using biodegradable cleaning products with no fumes or strong odours, your sparkling clean oven is ready for immediate use</p>
-                                <p>We clean commercial cookers and extractors, as well as other commercial kitchen appliances. Prices and time involved depend on the size and number of appliances. All jobs are therefore priced accordingly and a site visit may be required</p>
+                                <p>All our employees receive 3-4 weeks training with DBS (Disclosure Barring service) checked.</p>
+                                <p>They are fully insured to work on the appliances such as, dirty oven racks, shelves, trays and many more. These are removed and placed to soak in our specially fitted cleaning tank. After a few hours they are removed from the cleaning solution and rinsed off with fresh water and dried with spectacular results.</p>
+                                <p>Inside your home our professionally trained technician will work on your appliance using eco- friendly biodegradable cleaning products. This will leave your gleaming clean oven ready for immediate use.</p>
+                                <p>No only ovens, but we also clean commercial cookers, extractors and other commercial kitchen appliances.</p>
+                                <p>Prices and time involved depends on the size and number of appliances. Therefore, all jobs are priced accordingly and may require a site visit.</p>
                             </div>
                         </Col>
                         <Col lg={true}>

@@ -35,16 +35,16 @@ import Button from "react-bootstrap/Button";
               </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              <p>After doing extensive research and speaking with fellow colleagues in our line of business we can  confirm Blackhawk Oven cleaning are able to continue with business with STRICT guidelines.</p>
+              <p>After undertaking extensive research and communicating with my colleagues and clients in our line of business. We can confirm Blackhawk Oven Cleaning are able to continue safely following STRICT COVID -19 government guidelines.</p>
               <ul>
-                  <li>Facemasks and Gloves must be worn</li>
-                  <li>We have to notify our customers exact times we will be attending the property</li>
-                  <li>We must Sanitise our work area once the work is completed</li>
-                  <li>Be mindfull of small areas and shared access points</li>
-                  <li>Customers must stay in another room while we carry out the work</li>
+                  <li>We will be vigilant with health and hygiene. E.g. Face masks and gloves will be worn.</li>
+                  <li>We will notify our customers an approximate arrival time when attending the property.</li>
+                  <li>Once the job is completed we ensure to sanitise our work area.</li>
+                  <li>Be mindful of small areas and shared access points.</li>
+                  <li>Customers must maintain a safe distance in another room while we carry out the work.</li>
               </ul>
-              <p>If anyone has tested positive for Covid or showing symptoms they MUST inform us immediately so we can re schedule or make the necessary arrangements.</p>
-              <p>Thank you again from everyone at Blackhawk Oven cleaning</p>
+              <p>Please do not make any appointment if your household is showing symptoms of COVID-19. You MUST inform us immediately within 12 hour notice.</p>
+              <p>We appreciate your cooperation from Blackhawk Oven Cleaning.</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" className="site-button" onClick={this.handleClose}>

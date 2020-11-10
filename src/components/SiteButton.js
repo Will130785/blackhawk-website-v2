@@ -7,7 +7,7 @@ class SiteButton extends Component {
     render() {
         return (
             <A href={this.props.location}>
-                <Button className="site-button">{this.props.content}</Button>
+                <Button className="site-button hero__btn">{this.props.content}</Button>
             </A>
         )
     }

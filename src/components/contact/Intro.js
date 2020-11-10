@@ -17,7 +17,7 @@ class Intro extends Component {
                                 <img className="contact-intro__pic" src={Logo3d} alt="3d Logo" />
                             </div>
                             <div>
-                                <h2>Get in contact with us today</h2>
+                                <h2>Contact us today</h2>
                             </div>
                         </Col>
                     </Row>

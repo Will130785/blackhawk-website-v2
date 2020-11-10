@@ -15,7 +15,7 @@ class About extends Component {
                         <Col lg={true}>
                             <div className="about__content">
                                 <h2>About Us</h2>
-                                <p>Our Success and reputation is based on our professionalism and quality of Cleaning. Over 10 years of experience, We place a lot of importance on customer service and Satisfaction and with this we ensure all our processes are simple and hassle free, so you have a peace of mind.</p>
+                                <p>Our success and reputation is based on our professionalism and quality of cleaning. Over 10 years of experience we place a lot of importance on our customer service and satisfaction. We ensure all our processes are simple and hassle free to give everyone a peace of mind.</p>
                                 <p>We provide the highest standard of domestic cleaning services at competitive prices. Our experienced and trained team of professional cleaners have the talent required for the highest level of cleaning.</p>
                             </div>
                         </Col>

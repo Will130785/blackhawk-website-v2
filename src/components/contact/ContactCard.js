@@ -7,7 +7,7 @@ class ContactCard extends Component {
         return (
             <div className="contact-card" style={{ width: '100%' }}>
                 <h2>Contact Details</h2>
-                <h3>Get in contact with us using the form or any of the details below</h3>
+                <h3>You may contact by email or fill in this form below.</h3>
                 <div class="contact-card__details1">
                     <p>Blackhawk Oven Cleaning & Property Care</p>
                     <p>Sunnyhurst Close</p>
