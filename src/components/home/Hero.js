@@ -23,7 +23,7 @@ class Hero extends Component {
                                 <h2>Welcome to</h2>
                                 <h1 className="hero__header--main"><span className="black">BLACK</span><span className="hawk">HAWK</span></h1>
                                 <h2>OVEN CLEANING & PROPERTY CARE</h2>
-                                <p>The future of oven cleaning and property care services! Contact now for a free quote</p>
+                                <p>The future of oven cleaning and property care services! Feel free to get in touch with us for a no-obligation quote.</p>
                                 <SiteButton location="/contact" content="Free Quote" />
                                 <div className="hero__header--logos">
                                     <FamilyLogo />
