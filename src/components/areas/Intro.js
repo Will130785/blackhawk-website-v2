@@ -17,7 +17,7 @@ class Intro extends Component {
                                 <img className="area-intro__pic" src={Logo3d} alt="3d Logo" />
                             </div>
                             <div>
-                                <h2>The areas the we cover are listed below. If your area is not featured, please do still get in contact with us and we will try our best to accommodate you</h2>
+                                <h2>These are the areas we cover listed below. If your area is not featured, please do still get in contact with us and we will try our best to accommodate you</h2>
                             </div>
                         </Col>
                     </Row>
