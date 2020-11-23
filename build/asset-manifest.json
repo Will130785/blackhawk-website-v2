@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f204cb96.chunk.css",
-    "main.js": "/static/js/main.b2a32347.chunk.js",
-    "main.js.map": "/static/js/main.b2a32347.chunk.js.map",
+    "main.css": "/static/css/main.9f79e4bc.chunk.css",
+    "main.js": "/static/js/main.9980c592.chunk.js",
+    "main.js.map": "/static/js/main.9980c592.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f49cf2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f49cf2d.js.map",
     "static/css/2.ae85870d.chunk.css": "/static/css/2.ae85870d.chunk.css",
-    "static/js/2.2452d2c8.chunk.js": "/static/js/2.2452d2c8.chunk.js",
-    "static/js/2.2452d2c8.chunk.js.map": "/static/js/2.2452d2c8.chunk.js.map",
+    "static/js/2.8c9127c7.chunk.js": "/static/js/2.8c9127c7.chunk.js",
+    "static/js/2.8c9127c7.chunk.js.map": "/static/js/2.8c9127c7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.afe054836fd7321adacbe434752aeb8c.js": "/precache-manifest.afe054836fd7321adacbe434752aeb8c.js",
+    "precache-manifest.ae5a1edd66660ee0f1306e43d7bffa1b.js": "/precache-manifest.ae5a1edd66660ee0f1306e43d7bffa1b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ae85870d.chunk.css.map": "/static/css/2.ae85870d.chunk.css.map",
-    "static/css/main.f204cb96.chunk.css.map": "/static/css/main.f204cb96.chunk.css.map",
-    "static/js/2.2452d2c8.chunk.js.LICENSE.txt": "/static/js/2.2452d2c8.chunk.js.LICENSE.txt",
+    "static/css/main.9f79e4bc.chunk.css.map": "/static/css/main.9f79e4bc.chunk.css.map",
+    "static/js/2.8c9127c7.chunk.js.LICENSE.txt": "/static/js/2.8c9127c7.chunk.js.LICENSE.txt",
     "static/media/TBRBadgetransbackground.png": "/static/media/TBRBadgetransbackground.0f07497d.png",
     "static/media/Yell_RGB.png": "/static/media/Yell_RGB.a6a58bb3.png",
+    "static/media/award-logo.png": "/static/media/award-logo.7b1f65f9.png",
     "static/media/bark2019.png": "/static/media/bark2019.af5e9bf3.png",
     "static/media/App.scss": "/static/media/taha-sas-kSCAjbe0Qrg-unsplash.c3fa2f75.jpg",
     "static/media/companylogo1.png": "/static/media/companylogo1.f9299be0.png",
@@ -45,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.9f49cf2d.js",
     "static/css/2.ae85870d.chunk.css",
-    "static/js/2.2452d2c8.chunk.js",
-    "static/css/main.f204cb96.chunk.css",
-    "static/js/main.b2a32347.chunk.js"
+    "static/js/2.8c9127c7.chunk.js",
+    "static/css/main.9f79e4bc.chunk.css",
+    "static/js/main.9980c592.chunk.js"
   ]
 }

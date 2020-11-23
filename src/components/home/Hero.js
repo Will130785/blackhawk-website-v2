@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import SiteButton from "../SiteButton";
 import PriceLogo from "../PriceLogo";
 import FamilyLogo from "../FamilyLogo";
+import AwardLogo from "../AwardLogo";
 
 
 class Hero extends Component {
@@ -27,6 +28,7 @@ class Hero extends Component {
                                 <SiteButton location="/contact" content="Free Quote" />
                                 <div className="hero__header--logos">
                                     <FamilyLogo />
+                                    <AwardLogo />
                                     <PriceLogo />
                                 </div>
                             </div>
