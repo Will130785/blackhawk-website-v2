@@ -28,7 +28,7 @@ class Hero extends Component {
                                 <SiteButton location="/contact" content="Free Quote" />
                                 <div className="hero__header--logos">
                                     <FamilyLogo />
-                                    <AwardLogo />
+                                    <AwardLogo align="center"/>
                                     <PriceLogo />
                                 </div>
                             </div>
