@@ -3,7 +3,7 @@ import {MenuItems} from "./MenuItems";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from "../img/logo/logo-small.jpg";
 import {A} from "hookrouter";
-import NavModal from "../components/Modal";
+// import NavModal from "../components/Modal";
 
 class Navigation extends Component {
     constructor(props) {
@@ -42,7 +42,7 @@ class Navigation extends Component {
                         </li>
                         )
                     })}
-                    <A className="a-link" href=""><NavModal /></A>
+                    {/* <A className="a-link" href=""><NavModal /></A> */}
                 </ul>
             </nav>
         )
