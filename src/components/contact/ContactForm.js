@@ -2,7 +2,7 @@ import React from "react";
 
 const FormPage = () => {
 return (
-  <form className="contact-form" action="https://formspree.io/f/xoqpnold" method="POST">
+  <form className="contact-form" action="https://formspree.io/f/xaylpyvg" method="POST">
     <div className="contact-form__group">
       <label for="name">Name</label>
       <input className="contact-form__control" type="text" id="name" name="name" required/>
