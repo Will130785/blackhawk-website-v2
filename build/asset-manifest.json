@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.5400a2fb.chunk.css",
-    "main.js": "/static/js/main.f82c8870.chunk.js",
-    "main.js.map": "/static/js/main.f82c8870.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9f49cf2d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9f49cf2d.js.map",
-    "static/css/2.ae85870d.chunk.css": "/static/css/2.ae85870d.chunk.css",
-    "static/js/2.754cdc88.chunk.js": "/static/js/2.754cdc88.chunk.js",
-    "static/js/2.754cdc88.chunk.js.map": "/static/js/2.754cdc88.chunk.js.map",
+    "main.js": "/static/js/main.9fce63eb.chunk.js",
+    "main.js.map": "/static/js/main.9fce63eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e265c026.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e265c026.js.map",
+    "static/css/2.5f9e64e4.chunk.css": "/static/css/2.5f9e64e4.chunk.css",
+    "static/js/2.57cfbfc7.chunk.js": "/static/js/2.57cfbfc7.chunk.js",
+    "static/js/2.57cfbfc7.chunk.js.map": "/static/js/2.57cfbfc7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2fe63523b1f3b98439ba33ff659ff107.js": "/precache-manifest.2fe63523b1f3b98439ba33ff659ff107.js",
+    "precache-manifest.11810742f08b8752692eb6b75b372a92.js": "/precache-manifest.11810742f08b8752692eb6b75b372a92.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.ae85870d.chunk.css.map": "/static/css/2.ae85870d.chunk.css.map",
+    "static/css/2.5f9e64e4.chunk.css.map": "/static/css/2.5f9e64e4.chunk.css.map",
     "static/css/main.5400a2fb.chunk.css.map": "/static/css/main.5400a2fb.chunk.css.map",
-    "static/js/2.754cdc88.chunk.js.LICENSE.txt": "/static/js/2.754cdc88.chunk.js.LICENSE.txt",
+    "static/js/2.57cfbfc7.chunk.js.LICENSE.txt": "/static/js/2.57cfbfc7.chunk.js.LICENSE.txt",
     "static/media/TBRBadgetransbackground.png": "/static/media/TBRBadgetransbackground.0f07497d.png",
     "static/media/Yell_RGB.png": "/static/media/Yell_RGB.a6a58bb3.png",
     "static/media/award-logo.png": "/static/media/award-logo.7b1f65f9.png",
@@ -44,10 +44,10 @@
     "static/media/video.mp4": "/static/media/video.fc37befd.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f49cf2d.js",
-    "static/css/2.ae85870d.chunk.css",
-    "static/js/2.754cdc88.chunk.js",
+    "static/js/runtime-main.e265c026.js",
+    "static/css/2.5f9e64e4.chunk.css",
+    "static/js/2.57cfbfc7.chunk.js",
     "static/css/main.5400a2fb.chunk.css",
-    "static/js/main.f82c8870.chunk.js"
+    "static/js/main.9fce63eb.chunk.js"
   ]
 }

@@ -17,7 +17,7 @@ class OvenPrice extends Component {
               <div className='priceCard'>
                 <ul className='priceCard__items'>
                   <li>Standard Single Oven 60cm - £50</li>
-                  <li>Double Oven (Small door top, Large door bottom) - £60</li>
+                  <li>Double Oven (Small door top, Large door bottom) - £65</li>
                   <li>90cm Wide Oven - £60</li>
                   <li>2 Range oven - £85</li>
                   <li>3 Range oven - £95</li>
